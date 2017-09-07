@@ -1,11 +1,21 @@
 # sdg.market
 
-**A market to exchange open resources and achieve the sustainable development goals** 
+**A Decentralized Market for Sharing Knowledge and Expertise for the SDGs** 
 
 ### Introduction
 
-*SDGs : ambitious objectives until 2030
-*iSDG : requirement/proposal : a common platform to share knowledge for SDGs 
+The 17 United Nations Sustainable Development Goals (SDGs) have set an agenda to make the world more sustainable by 2030. The SDGs follow the Millenium Goals, which were set for the period 2000 until 2015.
+
+Here, we believe that sharing and exchanging valuable open knowledge as well as expertise associated with concrete projects aimed the SDGs, is a way to go that empowers all people willing to contribute.
+
+We also believe that market mechanisms can help bring enough incentives and motivation for people to share knowledge and contribute collectively to the concrete achievement of projects aimed at addressing outstanding issues associated with the SDGs. 
+
+We further believe that if such SDG Market should exist, it should be transparent, decentralized. It should as much as possible avoid intermediaries. However, we keep in mind that there is no one-size-fits-all solution to efficiently sharing knowledge. The  SDG Market Project borrows from past and ongoing & experiences on fast and efficient knowledge sharing.
+
+We aim to establish a common scalable platform to share knowledge for SDGs. 
+
+This draft White Paper has come out discussions held at the iSDG Assembly 2017 in Shenzhen, which gathered high-school students from Beijing with their teachers, university students attending Summer School programs at Tsinghua University, University of Geneva, EPFL, Centre pour la Recherche Interdisciplinaire (CRI) and Harvard University.
+
 
 ### Background
 * markets as a driver for trust : people make contracts
@@ -19,6 +29,12 @@
 * fast exchange of knowledge
 * scaling 
 * excite curiosity
+
+### What people should share :
+- their location
+- their skills
+- what they aim to achieve
+- how they value knowledge produced by themselves and others
 
 ### Requirements :
 * fully open innovation
@@ -136,8 +152,6 @@ Practical Issues :
 * European H2020 Grant Application (April) ?
 * June 2018 : first working version (with GitHub as backend)
 * August 2018 : sdg.market meeting at iSDG Assembly Shenzhen
-
-
 
 
 ### Apendices 
