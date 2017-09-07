@@ -31,7 +31,7 @@ This draft White Paper has come out discussions held at the iSDG Assembly 2017 i
 * excite curiosity
 
 ### What people should share :
-- their location
+- where they come from
 - their skills
 - what they aim to achieve
 - how they value knowledge produced by themselves and others
