@@ -113,30 +113,42 @@ Not clear how we can have a merge happen besides reusing parts of one project to
 
 (I would not advocate for a negotiation based bargain/deal)
 
-#### Recommendation :
+#### Invitations & Recommendation / Pull Requests / Merge :
 One way to share resources and effort is to recommend/invite contributors to help for a project.
 
 If an invitee to a project makes a contribution, the recommender get half of the shares. If the invitation is carried on further, each recommender get half of the shares of her invitee. For example an invitation is carried on 3 steps and the final invitee has contributed and has received 10 shares. The person who has invited her gets 5 shares, the recommender who invited the person who has found the contributor gets 2.5 shares, and so on recursively. This mechanism offers strong incentives to reach out for targeted help, and to further build the community (It was used for the DARPA Grand Balloon Challenge).
 
+It's all about invitation to contribute (c.f., recommendation above), or a spontaneous request to make a contribution. A request to make a change to a GIST shall be made to the owner or the main contributor of the GIST (to be clarified in details). This request may be presented as an outline of the fostered change, or in the style of a pull request, with a diff already integrated in the request.
+
+If the GIST is part of a project, the contributor which contribution has been accepted shall receive some shares of the project (according to the market value rules, c.f. above). If the accepted contribution follows an invitation, the inviter gets a bonus. If it's a spontaneous contribution accepted, the contributor gets the same bonus for herself.
+
+If the GIST is not part yet of a project, "foster shares" are counted and registered but they cannot be traded until the project is incorporated with this GIST (and perhaps other GISTs altogether).
+
+
 Practical Issues : 
 * an invitee new to the system should create an account (equiv. a wallet)
 => one way is to create immediately a wallet per email address. The account can be confirmed later (different emails can be confirmed and consolidated in one account)
-* an anti-spam mechanism might be needed, based on peer-review, or by providing a button in the email sent for the invitee to report spam. To deter spam, each invitation may a cost a vey small fee (0.005)
+* an anti-spam mechanism might be needed, based on peer-review, or by providing a button in the email sent for the invitee to report spam. To deter spam, each invitation may a cost a very small fee (0.05). Similarly, a request to contribute shall cost a very small fee (0.05), reimbursed when the contribution is accepted.
 
+#### Project Membership :
+To become a core member of a project, one may achieve a number *n* of accepted pull requests on GIST by *P* different project members.*n* and *p* may be set by default to *p=min(#members,3)* and *n=5* or they can be customized by project. Larger *p* and *n* reflects more extreme vetting.
 
-### How does it translate into real money ?
-* The objective is primarily to encourage circulation of capital as a way to reveal the true value of projects through a market mechanism.
- 
-* 
-* Optional conditions for use of crypto currency to buy supply : 
-- min. 1000 transactions and 100 different traders. To protect shareholder, only up to 20% of the capital can be used for supply in cash. Tickets must be uploaded/contributed and peer-verified by 3 humans (decentralized accounting through a kind of mining)? 
+### How does this translate into real money ?
+As long as there is no transaction, the project has no value. It needs a least one transaction to get a first valuation. For that a shareholder, who has acquired shares through contributions, must sell some shares to someone ready to pay cash for them.
 
-- alternative : use own crypto-cash wallet, and seek reimbursement to the project through peer-verification (accounting mining).
+### What happens if a project needs cash to continue ?
+At some point, a project may need cash to continue its development. Usually, raising money involves creation of new shares. It's money printing. Is there a way to avoid this ? 
+
+#### Tobin tax ?
+One could introduce a fee per transaction, which would go to a "project wallet", which is owned by project owners at the pro-rata of shareholdings. The Tobin tax amount shall not be negligible, perhaps 1-10% of the transaction, with a min and a max defined.
+
+#### How to spend the money ?
+To make an expenditure, it's like internal crowdfunding. A proposition for expenditure is made. Then project owners shall contribute their "project cash" (earned from the Tobin tax). If the amount is reached, along with a quorum of contributors (to avoid freeloading), then the purchase is performed.
 
 
 ### Blockchain mechanisms
-* 
-*
+* hashgraph
+* GitHub Gist or/and IPFS
 
 ### Overview of Practical Implementation Strategies :
 
@@ -162,3 +174,4 @@ We start simple enough, but in the future, some rules may be set for each projec
 
 #### Alternative Measures of Contribution
 
+* commits instead of bytes : incentivizes many commits of less quantity (in bytes).
