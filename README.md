@@ -18,7 +18,7 @@ In this whitepaper, we propose a (decentralized) mechanism design to fulfill the
 ### the UN SDGs
 The 17 United Nations (UN) Sustainable Development Goals (SDGs) have set an agenda to make the world more sustainable by 2030. The SDGs follow the Millenium Goals, which were set for the period 2000 until 2015.
 
-Here, we believe that sharing and exchanging valuable open knowledge as well as expertise associated with concrete projects aimed the SDGs, is a way to go that empowers all people willing to contribute.
+Here, we believe that sharing and exchanging valuable open knowledge as well as expertise associated with concrete projects aimed at the SDGs, is a way to go that empowers all people willing to contribute.
 
 We also believe that market mechanisms can help bring enough incentives and motivation for people to share knowledge and contribute collectively to the concrete achievement of projects aimed at addressing outstanding issues associated with the SDGs. 
 
@@ -26,7 +26,7 @@ We further believe that if such SDG Market should exist, it should be transparen
 
 We aim to establish a common scalable platform to share knowledge for SDGs. 
 
-This draft White Paper has come out discussions held at the iSDG Assembly 2017 in Shenzhen, which gathered high-school students from Beijing with their teachers, university students attending Summer School programs at Tsinghua University, University of Geneva, EPFL, Centre pour la Recherche Interdisciplinaire (CRI) and Harvard University.
+This draft White Paper has come out discussions with Dev4X held at the iSDG Assembly 2017 in Shenzhen, which gathered high-school students from Beijing with their teachers, university students attending Summer School programs at Tsinghua University, University of Geneva, EPFL, Centre pour la Recherche Interdisciplinaire (CRI) and Harvard University.
 
 ## Context/Requirements :
 
@@ -111,11 +111,11 @@ The SDG Market is about pushing impact investment to make the world a better pla
 
 In terms of SDG commitment, a project may define itself as SDG_{1-17}={0.,0.3,0.5,0,0,0.1,...,0.2}, with a vector reflecting the SDG aims.
 
-This approach is problematic has the SDG flavors may change has the project evolves. Hardcoding in a smart contract is not desirable. Therefore the alternative proposition below.
+This approach is problematic as the SDG flavors may change as the project evolves. Hardcoding in a smart contract is not desirable. Therefore the alternative proposition below.
 
 
 #### SDG Investment Signature:
-Another way is to let the investors decide what SDG flavor a project has. Let's consider that a cash investor may want to trade project that she has identified with a "gender equality" flavor. By making her investment, she signals a project as important for gender equality (SDG{x}). Another investor may decide that the same project is important for water sanitation (SDG{y}), and shall invest in proportion of her beliefs. The proportion of cash investments shall signal the SDG flavor of a project, and the evolution of its SDG Flavor over time, as people invest and divest from a project when selling tokens for investments with different flavors.
+Another way is to let the investors decide what SDG flavor a project has. Let's consider that a cash investor may want to trade with a project that she has identified with a "gender equality" flavor. By making her investment, she signals a project as important for gender equality (SDG{x}). Another investor may decide that the same project is important for water sanitation (SDG{y}), and shall invest in proportion of her beliefs. The proportion of cash investments shall signal the SDG flavor of a project, and the evolution of its SDG Flavor over time, as people invest and divest from a project when selling tokens for investments with different flavors.
 
 The investor may at any time "taint" a cash investment with only one SDG. And in some cases, the counter part shall only trade is a specific unique flavor. The token exchanged against cash remains "tainted" with a unique SDG flavor until it gets sold against another cash investment. So a token flavored with SDG1 may be traded against cash flavored with SDG5, and will become SDG5 flavored as a result.
 
@@ -157,7 +157,7 @@ A response is expected within a week (or any other time period which could be de
 
 If no response is issued, the lurker gets back 90% of its fee as shares as valued at max(value at posting time,current project value) from main contributors altogether (i.e., the fee is divided between all main contributors). 
 
-If a negative response is issued by a main contributor, then all main contributors must pay together a 0.05% fee in shares (at max(value at posting time,current value), i.e., the fee is divided between all main contributors) to the lurker. In other word, if a contribution request is turned-down everyone is punished. With an incentive for main contributors to act fast as fee reimbursements are made at current value, as it is expected that the project value will increase.
+If a negative response is issued by a main contributor, then all main contributors must pay together a 0.05% fee in shares (at max(value at posting time,current value), i.e., the fee is divided between all main contributors) to the lurker. In other words, if a contribution request is turned-down everyone is punished. With an incentive for main contributors to act fast as fee reimbursements are made at current value, as it is expected that the project value will increase.
 
 ##### Invitation to Perform a Contribution
 A part of the social media mechanism, a contributor may invite an outside contribution (i.e., from a lurker or someone who has not been exposed earlier to the project). To avoid spam and mass invitation, the inviter has to pay a fee to invite someone (0.1% of the project value in shares at the time of invitation). If the invitee accepts and makes a contribution which in turn is accepted, then the inviter gets his fee back + 25% of the shares earned by the invitee having contributed. 
@@ -194,7 +194,7 @@ The patterns of contribution are different across generations. First generations
 
 
 ### How do we protect intellectual property ?
-One the main problem with collective production is how the value of IP is shared among contributors. In particular when contributors act at different stages of a project, the early contributors may make key background efforts, while second or third generation contributions may be in position to make decisive moves and reap off the benefits of the 
+One the main problem with collective production is how the value of IP is shared among contributors. In particular when contributors act at different stages of a project, the early contributors may make key background efforts, while second or third generation contributions may be in position to make decisive moves and reap off the benefits of the early contributors.
 
 => plagiarism detection
 
@@ -227,7 +227,7 @@ Fork of intermediate versions is possible. Distribution of bonus shares to incum
 
 Fork may for instance allow rebooting a project, which has experienced a governance failure.
 
-Expected behavior : a fork is pure replication of content, which brings no additional information. Therefore, if the project does not bring expectation that it will distinguish itself from the parent project, it should lose traction and thus value fairly quickly. Another more annoying but possibility would be that it reaches the same value as the incumbent project (since they both contain the same information). However, this is unlikely because the value of a project entails its capacity to grow and adapt. For that community building is almost required. If the forked project strives with another community, then the fork is a success and the project gets its own value.
+Expected behavior : a fork is pure replication of content, which brings no additional information. Therefore, if the project does not bring expectation that it will distinguish itself from the parent project, it should lose traction and thus value fairly quickly. Another more annoying possibility would be that it reaches the same value as the incumbent project (since they both contain the same information). However, this is unlikely because the value of a project entails its capacity to grow and adapt. For that community building is almost required. If the forked project strives within another community, then the fork is a success and the project gets its own value.
 
 
 A fork may likely imply creating a new (resp. updating) project smart contract
