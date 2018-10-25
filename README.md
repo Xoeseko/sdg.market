@@ -45,12 +45,14 @@ The 2015-30 agenda for the implementation of the UN SDGs is a tight one. It will
 #### Focus on Robustness & Scaling
 * peer review with consensus building
 
-#### Objective measures of success :
-* **objective measure of success : survival x impact ?**
+#### Objective measures of success
+* objective measure of success : survival x impact ?
  
 #### Incentivize the enforcement of intellectual property
+* build trust for contributors that their contributions will be factored in the compounded value created in the end
+* establish a new IP regime that reflect stakes on the SDG Market (i.e., a new kind of open source license)
 
-### Project Dynamics :
+## Project Dynamics :
 An (open source) project starts with an idea, which is either devised collectively or by a single leading person who then convinces others to follow, and help contribute. As it grows the project gets more contributors, who in turn help fix an increasing number of issues, and provide additional flesh to the project. Hopefully, the project continues this way following a virtuous circle. Even though it may not generalize, most projects that aim to scale may deeply benefit from contributors with different culture and expertise backgrounds. Additionally, the nature of involvement is likely to change over the course of the project: late contributors generally don't have the same challenges, motivations and constraints, compared to early contributors. Respecting the life course of a project and the renewal of contributors is paramount to ensure that resources provided by contributors are efficiently allocated over the course of the project.
 
 ### The need for a robust sense of ownership for all contributors from the idea to the first financial pledge and beyond:
@@ -93,16 +95,14 @@ or
 - a Tobin tax or a flat commission applies, which revenues go to the project.
 
 
-1. In the first case, the project (i.e., token holders) decides to create tokens against cash. From the SDG Market, they derive a market value (recursively by considering the market price of the project tokens against other tokens of projects that have already received some cash. **The problem is that the decision to create and sell tokens requires a form of consensus, to be determined**. 
+1. In the first case, the project (i.e., token holders) decides to create tokens against cash. From the SDG Market, they derive a market value (recursively by considering the market price of the project tokens against other tokens of projects that have already received some cash. **The problem is that the decision to create and sell tokens requires an (unknown) form of consensus**. 
 
-2. The second option is more like a Tobin tax, which neither requires consensus nor token creation. The Tobin tax function is set in the project smart contract. For each transaction involving cash, the buyer must pay an additional fee to the project (or equivalently, a share of her down payment of a given amount of tokens goes to the project). This tax can be factors more than the value of the shares, and may actually evolve with the value of tokens.
-
-Several mechanisms may be possible : 
+2. The second option is more like a Tobin tax, which neither requires consensus nor token creation. The Tobin tax function is set in the project smart contract. For each transaction involving cash, the buyer must pay an additional fee to the project (or equivalently, a share of her down payment of a given amount of tokens goes to the project). This tax can be factors more than the value of the shares, and may actually evolve with the value of tokens. Several mechanisms may be possible : 
 a. it can be a flat rate per share, e.g., 1 CHF per token sold. For low value tokens, the price to pay is high, which is punitive, yet could bring cash to a project in difficulty. So for instance, if a token holder sells 10 tokens for 1 Swiss Francs, the per token tax may be 10 CHF (100%). On the contrary, if the token holder sells 1 token for 10 Swiss Francs, the tax is 1 CHF (10%).
 b. it could be a flatrate tax on the transaction : 10 CHF whatever transaction. It's even more punitive because it forces large volumes, unlike option (a), which is punitive on the number of token exchanged.
 c. it could be a percentage (e.g. 1%), but this may over incentivize early cash inflow
 
-3. The third option is an hybrid of 1 and 2a. and particularly nice imho : For each transaction, some tokens are distributed as a counterpart of the tax (it's technically no longer a tax). For each transaction there is flat rate to pay per share to pay to the project, e.g.. 1 CHF per token. As a counterpart, a fraction/multiple of token is distributed as the inverse function of the current token value. For instance, if the token value is 1 CHF then the buyer receives 1 new token. If the value is 10 CHF, then the buyer receives 0.1 token. If the value is 100 CHF, then the buyer receives 0.01 token. And so on. This mechanism is particularly nice because it helps someone buy out quickly an abandoned project, also bringing in cash resources, and thus, reviving interested in the project.
+3. The third option is an hybrid of 1 and 2a. : For each transaction, some tokens are distributed as a counterpart of the tax (it's technically no longer a tax). For each transaction there is flat rate to pay per share to pay to the project, e.g.. 1 CHF per token. As a counterpart, a fraction/multiple of token is distributed as the inverse function of the current token value. For instance, if the token value is 1 CHF then the buyer receives 1 new token. If the value is 10 CHF, then the buyer receives 0.1 token. If the value is 100 CHF, then the buyer receives 0.01 token. And so on. This mechanism is particularly nice because it helps someone buy out quickly an abandoned project, also bringing in cash resources, and thus, reviving interest in the project.
 
 ### Creating a SDG Commitment:
 
@@ -115,7 +115,7 @@ This approach is problematic as the SDG flavors may change as the project evolve
 
 
 #### SDG Investment Signature:
-Another way is to let the investors decide what SDG flavor a project has. Let's consider that a cash investor may want to trade with a project that she has identified with a "gender equality" flavor. By making her investment, she signals a project as important for gender equality (SDG{x}). Another investor may decide that the same project is important for water sanitation (SDG{y}), and shall invest in proportion of her beliefs. The proportion of cash investments shall signal the SDG flavor of a project, and the evolution of its SDG Flavor over time, as people invest and divest from a project when selling tokens for investments with different flavors.
+Another way is to let the investors decide what SDG flavor a project has. Let's consider that a cash investor may want to trade with a project that she has identified with a "gender equality" flavor. By making her investment, she signals a project as important for gender equality (SDG 5). Another investor may decide that the same project is important for water sanitation (SDG 6), and shall invest in proportion of her beliefs. The proportion of cash investments shall signal the SDG flavor of a project, and the evolution of its SDG Flavor over time, as people invest and divest from a project when selling tokens for investments with different flavors.
 
 The investor may at any time "taint" a cash investment with only one SDG. And in some cases, the counter part shall only trade is a specific unique flavor. The token exchanged against cash remains "tainted" with a unique SDG flavor until it gets sold against another cash investment. So a token flavored with SDG1 may be traded against cash flavored with SDG5, and will become SDG5 flavored as a result.
 
@@ -132,13 +132,13 @@ By default (strict), the "non-profit" cash shall be entirely transferred to the 
 
 The takeaway for non-profit organizations is the transparent signaling of their non-profit impact investments, and their clear evolution of time.
 
-### Rewards for Contributions, Tasks and Actions :
+## Rewards for Contributions, Tasks and Actions :
 The primary way to generate tokens is through active contribution to projects. Every action shall be rewarded at some pre-defined rates. Here, we detail some "simple" as well as more sophisticated possible rules. These are propositions that explain the mechanisms, but in the end, the objective would be that each project's smart contract shall contain its own contribution reward rules.
 
 #### Simple Rule
 The simple rule involves no bargain on the value of performed task. It relies uniquely on the quantity of change made by an individual to a project. To make it simple and considering only written text (incl. code), one may consider a project as a long list of characters. This long list of characters changes at each contribution. The minimum number of character permutations to transform *string1* into *string2* (i.e., Levenshtein function) shall measure this quantity of change.
 
-A given quantity of change shall be rewarded with a quantity of tokens, as a function of current token value. So assuming that a project starts at value 100 #SDGs (with the #SDGs being the base unit of the SDG.Market), then a change of 100 bytes shall be rewarded with 1 token. If the value of the project increases to 1000 #SDGs then the same contribution shall be rewarded 0.1 token. On the contrary, if the value soars to 10 #SDGs the same 100 bytes contribution is rewarded 10 tokens.
+A given quantity of change shall be rewarded with a quantity of tokens, as a function of current token value. So assuming that a project starts at value 100 #SDGs (with the #SDGs being the base (virtual) currency unit of the SDG.Market), then a change of 100 bytes shall be rewarded with 1 token. If the value of the project increases to 1000 #SDGs then the same contribution shall be rewarded 0.1 token. On the contrary, if the value soars to 10 #SDGs the same 100 bytes contribution is rewarded 10 tokens.
 
 share_attribution = bytes x value / price
 
@@ -150,7 +150,7 @@ Simplicity is a huge advantage because it does not require any ex-ante or ex-pos
 
 We see collective intelligence as a social process, which involves contributors proposing their changes (similar to pull request) or being invited to perform a contribution.
 
-#### Proposition to Make a Contribution
+##### Proposition to Make a Contribution
 If not granted rights to contribute directly, a lurker may find some changes to be made to a project. To avoid spam, the lurker must pay a fee in #SDGs representing 0.1% of the project value at the time of posting. If the proposed changes (pull request) are accepted by a main contributor, then the lurker gets a load of shares according to the above formula (1) **valued at the time of posting** the contribution + a fee reimbursement of 0.1% of the current project value.
 
 A response is expected within a week (or any other time period which could be defined in the project smart contract). 
@@ -279,7 +279,7 @@ To make an expenditure, it's like internal crowdfunding. A proposition for expen
 
 
 ### Initial Funding & Initial Coin Offering (ICO) : 
-The initial funders of the Foundation (min. 50k CHF) share 10% of SDGcoins issued during the ICO, in proportion of their respective contributions.
+The initial funders of the Foundation (min. 50k) share 10% of SDGcoins issued during the ICO, in proportion of their respective contributions.
 
 ICO : one SDGcoin = $5
 
