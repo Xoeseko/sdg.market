@@ -1,3 +1,9 @@
+---
+layout: single
+title: Checks and Balances
+permalink: /checks_and_balances/
+---
+
 # Check and balances : sdg.market
 
 ## Selling project parts wihtout owning some
