@@ -1,3 +1,10 @@
+---
+layout: single
+title: Questions
+permalink: /questions/
+---
+
+
 # Remaining interrogations
 
 1. Who do the initial 1000 generated tokens belong to ?
