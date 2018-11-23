@@ -3,8 +3,8 @@ layout: single
 title: Whitepaper
 permalink: /whitepaper/
 sidebar:
-	title: "Parts"
-	nav: "wp-nav"
+  title: "Parts"
+  nav: "wp-nav"
 ---
 
 # sdg.market
