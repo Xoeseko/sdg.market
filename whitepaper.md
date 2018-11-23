@@ -4,7 +4,7 @@ title: Whitepaper
 permalink: /whitepaper/
 sidebar:
   title: "Navigate"
-  nav: "wp-nav"
+  nav: wp-nav
 ---
 
 # sdg.market
