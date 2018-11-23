@@ -3,7 +3,7 @@ layout: single
 title: Whitepaper
 permalink: /whitepaper/
 sidebar:
-  title: "Parts"
+  title: "Navigate"
   nav: "wp-nav"
 ---
 
