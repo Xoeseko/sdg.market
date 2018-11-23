@@ -1,6 +1,12 @@
+---
+layout: single
+title: Whitepaper
+permalink: /whitepaper/
+---
+
 # sdg.market
 
-**A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs** 
+**A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
 
 ## Introduction
 We recognize the prime importance of transparency, attribution and accountability of knowledge production. We consider that the progress of humanity at scale requires strong incentives to produce, share and operationalize knowledge through actions, systems, products. These artifacts can then have a positive impact in order to overcome some of the most pressing challenges of our times (e.g., climate change, gender equality, reduction of poverty). The challenge of collective knowledge production entails most often latent social and economic components. For instance, contributors to Open Source Software (OSS) or Wikipedia resort to a mix of instrinsic and extrinsic motivations that determine their engagement []. Involvement in peer-production generally requires understanding a set of more or less implicit norms, which cement the community yet often at the cost of some entry barriers. Most open source projects have suffered from these barriers [ref].
@@ -20,11 +26,11 @@ The 17 United Nations (UN) Sustainable Development Goals (SDGs) have set an agen
 
 Here, we believe that sharing and exchanging valuable open knowledge as well as expertise associated with concrete projects aimed at the SDGs, is a way to go that empowers all people willing to contribute.
 
-We also believe that market mechanisms can help bring enough incentives and motivation for people to share knowledge and contribute collectively to the concrete achievement of projects aimed at addressing outstanding issues associated with the SDGs. 
+We also believe that market mechanisms can help bring enough incentives and motivation for people to share knowledge and contribute collectively to the concrete achievement of projects aimed at addressing outstanding issues associated with the SDGs.
 
 We further believe that if such SDG Market should exist, it should be transparent, decentralized. It should as much as possible avoid intermediaries. However, we keep in mind that there is no one-size-fits-all solution to efficiently sharing knowledge. The  SDG Market Project borrows from past and ongoing & experiences on fast and efficient knowledge sharing.
 
-We aim to establish a common scalable platform to share knowledge for SDGs. 
+We aim to establish a common scalable platform to share knowledge for SDGs.
 
 This draft White Paper has come out discussions with Dev4X held at the iSDG Assembly 2017 in Shenzhen, which gathered high-school students from Beijing with their teachers, university students attending Summer School programs at Tsinghua University, University of Geneva, EPFL, Centre pour la Recherche Interdisciplinaire (CRI) and Harvard University.
 
@@ -35,7 +41,7 @@ The 2015-30 agenda for the implementation of the UN SDGs is a tight one. It will
 
 #### Set clear, fair, transparent and immutable incentives to contribute
 * fully open innovation
-* transparency 
+* transparency
 
 #### Encourage community building & sustainable transmission across generations of contributors
 * respect individual and collective strategies
@@ -47,7 +53,7 @@ The 2015-30 agenda for the implementation of the UN SDGs is a tight one. It will
 
 #### Objective measures of success
 * objective measure of success : survival x impact ?
- 
+
 #### Incentivize the enforcement of intellectual property
 * build trust for contributors that their contributions will be factored in the compounded value created in the end
 * establish a new IP regime that reflect stakes on the SDG Market (i.e., a new kind of open source license)
@@ -57,7 +63,7 @@ An (open source) project starts with an idea, which is either devised collective
 
 ### The need for a robust sense of ownership for all contributors from the idea to the first financial pledge and beyond:
 
-There are actions that count in the life of a project, such as the initial idea, the invitation of new contributors, contribution to content other tasks for project enhancement (e.g., a new module). Some other actions resort to soft skills and altruism, such as bestowing fellow contributors, e.g., to express gratitude. 
+There are actions that count in the life of a project, such as the initial idea, the invitation of new contributors, contribution to content other tasks for project enhancement (e.g., a new module). Some other actions resort to soft skills and altruism, such as bestowing fellow contributors, e.g., to express gratitude.
 
 Additionally, a project gets robust through a thorough peer-review process, which may be fine-grained (reviewing and validating a given task) or taking into account the project as a whole.
 
@@ -65,7 +71,7 @@ Additionally, a project gets robust through a thorough peer-review process, whic
 
 Many projects can sustain for a long while without financial resources, and as such remain "unfungible" during this time. This is usually an issue, because projects/startups without investment don't have proper continuous valuation. In turn, the lack of valuation prevents attributing value to the fine-grained actions performed by contributors.
 
-Our core proposition is that contributions to projects (as well as other actions) generate tokens. We will detail in section XX which actions generate rewards through the generation of token. In turn, these tokens can be traded on their "foster" value until proper financing kicks-in (see next section). 
+Our core proposition is that contributions to projects (as well as other actions) generate tokens. We will detail in section XX which actions generate rewards through the generation of token. In turn, these tokens can be traded on their "foster" value until proper financing kicks-in (see next section).
 
 This *exchange* offers the possibility of diversification between projects. Yet, it is arguably complicated for people to decide how to trade tokens one to one. At the same time, there is no currency involved.
 
@@ -87,17 +93,17 @@ Through transactions performed by participants, the SDG Market essentially plays
 
 At some point, a project may require fund raising. On the contrary to the SDG.Market, which is concerned only with trading tokens, trading may also involve real money (resp. virtual currencies).
 
-The objective of real-money is financing the growth of a project, and marginally, to enrich token holders as well. The question is the following : Each time a transaction with real money occurs, how much of this money should go to the shareholder and how much should go to the project. 
+The objective of real-money is financing the growth of a project, and marginally, to enrich token holders as well. The question is the following : Each time a transaction with real money occurs, how much of this money should go to the shareholder and how much should go to the project.
 
-There are two options : 
+There are two options :
 - a given amount of tokens are created and distributed to the buyer in exchange of cash.
 or
 - a Tobin tax or a flat commission applies, which revenues go to the project.
 
 
-1. In the first case, the project (i.e., token holders) decides to create tokens against cash. From the SDG Market, they derive a market value (recursively by considering the market price of the project tokens against other tokens of projects that have already received some cash. **The problem is that the decision to create and sell tokens requires an (unknown) form of consensus**. 
+1. In the first case, the project (i.e., token holders) decides to create tokens against cash. From the SDG Market, they derive a market value (recursively by considering the market price of the project tokens against other tokens of projects that have already received some cash. **The problem is that the decision to create and sell tokens requires an (unknown) form of consensus**.
 
-2. The second option is more like a Tobin tax, which neither requires consensus nor token creation. The Tobin tax function is set in the project smart contract. For each transaction involving cash, the buyer must pay an additional fee to the project (or equivalently, a share of her down payment of a given amount of tokens goes to the project). This tax can be factors more than the value of the shares, and may actually evolve with the value of tokens. Several mechanisms may be possible : 
+2. The second option is more like a Tobin tax, which neither requires consensus nor token creation. The Tobin tax function is set in the project smart contract. For each transaction involving cash, the buyer must pay an additional fee to the project (or equivalently, a share of her down payment of a given amount of tokens goes to the project). This tax can be factors more than the value of the shares, and may actually evolve with the value of tokens. Several mechanisms may be possible :
 a. it can be a flat rate per share, e.g., 1 CHF per token sold. For low value tokens, the price to pay is high, which is punitive, yet could bring cash to a project in difficulty. So for instance, if a token holder sells 10 tokens for 1 Swiss Francs, the per token tax may be 10 CHF (100%). On the contrary, if the token holder sells 1 token for 10 Swiss Francs, the tax is 1 CHF (10%).
 b. it could be a flatrate tax on the transaction : 10 CHF whatever transaction. It's even more punitive because it forces large volumes, unlike option (a), which is punitive on the number of token exchanged.
 c. it could be a percentage (e.g. 1%), but this may over incentivize early cash inflow
@@ -126,7 +132,7 @@ Tokens on the exchange market (not involving cash but only exchanging tokens) ca
 The SDG Investment Signature signals clearly how investors rate projects according to the SDGs. In turn, by repeated trading of projects with various SDG flavors, the wisdom of crowds exhibits how projects behave according to the SDGs, and thus, inform further investment in one direction or another. A financial organization may invest/divest according to the SDG Signal, and as a result, follow its responsible investment portfolio, respectively its investment statutes.
 
 ### Non-Profit Impact Investment :
-There is a growing interest in non-profit impact investment, and an organization with provision to invest only in non-profit shall be entitled to do so. To be eligible to non-profit investment a project shall include a "non-profit" statement in its smart-contract, and tokens sold/emitted shall be traded for cash coming from non-profit organizations. These "non-profit" tokens can only be traded against other "non-profit" tokens. 
+There is a growing interest in non-profit impact investment, and an organization with provision to invest only in non-profit shall be entitled to do so. To be eligible to non-profit investment a project shall include a "non-profit" statement in its smart-contract, and tokens sold/emitted shall be traded for cash coming from non-profit organizations. These "non-profit" tokens can only be traded against other "non-profit" tokens.
 
 By default (strict), the "non-profit" cash shall be entirely transferred to the project address. A relaxed rule may involve that in order to incentivize transaction, the seller gets a fixed haircut of the transaction (e.g., 5-15%). This haircut is defined in the smart contract. As an alternative to a fixed percentage (or even fixed rate), it could be a concave (to incentivize transactions at low price) or a convex function of price (to incentivize transactions at high price).
 
@@ -153,20 +159,20 @@ We see collective intelligence as a social process, which involves contributors 
 ##### Proposition to Make a Contribution
 If not granted rights to contribute directly, a lurker may find some changes to be made to a project. To avoid spam, the lurker must pay a fee in #SDGs representing 0.1% of the project value at the time of posting. If the proposed changes (pull request) are accepted by a main contributor, then the lurker gets a load of shares according to the above formula (1) **valued at the time of posting** the contribution + a fee reimbursement of 0.1% of the current project value.
 
-A response is expected within a week (or any other time period which could be defined in the project smart contract). 
+A response is expected within a week (or any other time period which could be defined in the project smart contract).
 
-If no response is issued, the lurker gets back 90% of its fee as shares as valued at max(value at posting time,current project value) from main contributors altogether (i.e., the fee is divided between all main contributors). 
+If no response is issued, the lurker gets back 90% of its fee as shares as valued at max(value at posting time,current project value) from main contributors altogether (i.e., the fee is divided between all main contributors).
 
 If a negative response is issued by a main contributor, then all main contributors must pay together a 0.05% fee in shares (at max(value at posting time,current value), i.e., the fee is divided between all main contributors) to the lurker. In other words, if a contribution request is turned-down everyone is punished. With an incentive for main contributors to act fast as fee reimbursements are made at current value, as it is expected that the project value will increase.
 
 ##### Invitation to Perform a Contribution
-A part of the social media mechanism, a contributor may invite an outside contribution (i.e., from a lurker or someone who has not been exposed earlier to the project). To avoid spam and mass invitation, the inviter has to pay a fee to invite someone (0.1% of the project value in shares at the time of invitation). If the invitee accepts and makes a contribution which in turn is accepted, then the inviter gets his fee back + 25% of the shares earned by the invitee having contributed. 
+A part of the social media mechanism, a contributor may invite an outside contribution (i.e., from a lurker or someone who has not been exposed earlier to the project). To avoid spam and mass invitation, the inviter has to pay a fee to invite someone (0.1% of the project value in shares at the time of invitation). If the invitee accepts and makes a contribution which in turn is accepted, then the inviter gets his fee back + 25% of the shares earned by the invitee having contributed.
 
 The invitation can pass on recursively with the same "anti-spam" constraints (0.1% of the project value in #SDGs this time) and + 50 % of the shares earned by the invitee. In other words, if the real lurker/contributor at the end of the invitation chain gets 100 shares, the person who invited the the lurker/contributor get 50 shares , the person who invited the person who found the lurker gets 25 shares, and so on. Invitation fees get all reimbursed. Loops are not possible.
 
 If the invited lurker has not previously contributed to the project she gets a 50% bonus in shares. If the invited lurker has no account on the SDG.Market, she immediately gets 10000 #SDGs credited upon creation of her account (this value may change .
 
-* Practical Issues : 
+* Practical Issues :
 	- an invitee new to the system should create an account (equiv. a wallet)
 => one way is to create immediately a wallet per email address. The account can be confirmed later (different emails can be confirmed and consolidated in one account)
 	- an anti-spam mechanism might be needed, based on peer-review, or by providing a button in the email sent for the invitee to report spam. To deter spam, each invitation may a cost a very small fee (0.05). Similarly, a request to contribute shall cost a very small fee (0.05), reimbursed when the contribution is accepted.
@@ -177,9 +183,9 @@ If the invited lurker has not previously contributed to the project she gets a 5
 A sophisticated rule may imply tasks, which get traded as futures : the task issuer makes an offer for achieving a task within a given time period. The future may in turn attract one or many contributors who make a commitment to achieve a task within the given period (see reference XXX for further details).
 
 ### Rewards for reuse of modules outside of the project:
-The whole idea would be that a project sub-divided into modules (bricks), which could adopted or cited by other projects. The idea is to follow attribution and avoid useless replication of knowledge. 
+The whole idea would be that a project sub-divided into modules (bricks), which could adopted or cited by other projects. The idea is to follow attribution and avoid useless replication of knowledge.
 
-Reuse shall be free, however should bring some rewards to the contributors of source project. The proposition is that a module of project A (of value a at the time of reuse) is reused by project B (of value b at the time of reuse), then the shareholders of project A should receive some tokens of project B in proportion of their holdings in project A. 
+Reuse shall be free, however should bring some rewards to the contributors of source project. The proposition is that a module of project A (of value a at the time of reuse) is reused by project B (of value b at the time of reuse), then the shareholders of project A should receive some tokens of project B in proportion of their holdings in project A.
 
 Determination of the amount of shares : If project B has k modules, the additional module is worth 1/(B+1) x total amount of tokens in circulation. For consistency, it could similarly counted in quantity of bytes. Project value should not matter here.
 
@@ -190,7 +196,7 @@ Determination of the amount of shares : If project B has k modules, the addition
 ### Ensure that projects can pass on from a generation of contributors to another
 The patterns of contribution are different across generations. First generations of contributors tend to produce an intense work for a short lasted time period. With younger generations working less in the instant however for a longer period. The SDG Market factors in value over time.
 
-## Intellectual Property Protection 
+## Intellectual Property Protection
 
 
 ### How do we protect intellectual property ?
@@ -214,7 +220,7 @@ One should be incentivized to reuse parts of existing projects, or even fork pro
 
 ##### Reuse :
 Reuse is free but incumbent content producers should be rewarded for their past work.
-When content is reused from one project to another, the stockholders of the incumbent projects get shares from the reusing project. 
+When content is reused from one project to another, the stockholders of the incumbent projects get shares from the reusing project.
 
 100% of the shares of the latter project and distributed to the individual having performed the reuse. The shares are spread across the shareholders of the incumbent project in proportion of their respective holding in the incumbent project at the time of fork.
 
@@ -278,7 +284,7 @@ To make an expenditure, it's like internal crowdfunding. A proposition for expen
 * August 2018 : sdg.market meeting at iSDG Assembly Shenzhen
 
 
-### Initial Funding & Initial Coin Offering (ICO) : 
+### Initial Funding & Initial Coin Offering (ICO) :
 The initial funders of the Foundation (min. 50k) share 10% of SDGcoins issued during the ICO, in proportion of their respective contributions.
 
 ICO : one SDGcoin = $5
@@ -288,7 +294,7 @@ After ICO : SDGcoins are issued in function of the number of transactions. Every
 Verification of transactions also bring coin rewards (tbd, but rather a power law decreasing function that flattens, instead of exponential decay which brings problems as for bitcoin).
 
 
-### Apendices 
+### Apendices
 
 #### [future implementation] Delegation of Governance to projects
 
