@@ -24,17 +24,12 @@ wp-nav:
   -
     children:
       -
-        title: Context/Requirements
-        url: "/whitepaper/#contextrequirements-"
-      -
         title: Motivations
         url: "/whitepaper/#motivations"
+    url: "/whitepaper/#contextrequirements-"
     title: Context/Requirements
   -
-    children:
-      -
-        title: "Project Dynamics"
-        url: "/whitepaper/#project-dynamics-"
+    children:        
       -
         title: "The need for a robust sense of ownership for all contributors from the idea to the first financial pledge and beyond"
         url: "/whitepaper/#the-need-for-a-robust-sense-of-ownership-for-all-contributors-from-the-idea-to-the-first-financial-pledge-and-beyond"
@@ -59,12 +54,10 @@ wp-nav:
       -
         title: "Non-Profit Impact Investment"
         url: "/whitepaper/#non-profit-impact-investment-"
+    url: "/whitepaper/#project-dynamics-"
     title: "Project Dynamics"
   -
     children:
-      -
-        title: "Rewards for Contributions, Tasks and Actions"
-        url: "/whitepaper/#rewards-for-contributions-tasks-and-actions"
       -
         title: "Simple Rule"
         url: "/whitepaper/#simple-rule"
@@ -74,6 +67,7 @@ wp-nav:
       -
         title: "Rewards for reuse of modules outside of the project"
         url: "/whitepaper/#rewards-for-reuse-of-modules-outside-of-the-project"
+    url: "/whitepaper/#rewards-for-contributions-tasks-and-actions"
     title: "Rewards for Contributions, Tasks and Actions"
   -
     children:
