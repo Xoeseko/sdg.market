@@ -66,8 +66,8 @@ wp-nav:
         url: "/whitepaper/#sophisticated-rule-"
       -
         title: "Rewards for reuse of modules outside of the project"
-        url: "/whitepaper/#rewards-for-reuse-of-modules-outside-of-the-project-"
-    url: "/whitepaper/#rewards-for-contributions-tasks-and-actions"
+        url: "/whitepaper/#rewards-for-reuse-of-modules-outside-of-the-project"
+    url: "/whitepaper/#rewards-for-contributions-tasks-and-actions-"
     title: "Rewards for Contributions, Tasks and Actions"
   -
     children:
