@@ -77,8 +77,9 @@ wp-nav:
     children:
       -
         title: License
+        url: "/whitepaper/#license-"
     title: "Intellectual Property Protection"
-    url: "/whitepaper/#license-"
+    url: "/whitepaper/#intellectual-property-protection-"
   -
     title: "Encouragement to Share"
     url: "/whitepaper/#encouragement-to-share"
@@ -94,8 +95,8 @@ wp-nav:
         title: "Next steps"
         url: "/whitepaper/#next-steps-"
       -
-        title: initial-funding--initial-coin-offering-ico-
-        url: "/whitepaper/#Initial funding & initial coin offering"
+        title: "Initial funding & initial coin offering
+        url: "/whitepaper/#initial-funding--initial-coin-offering-ico-"
       -
         title: Apendices
         url: "/whitepaper/#apendices"
