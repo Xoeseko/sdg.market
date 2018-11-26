@@ -9,7 +9,7 @@ main:
     title: Questions
     url: /questions/
 wp-nav:
-  - 
+  -
     title: Introduction
     url: "/whitepaper/#introduction"
   -
@@ -27,7 +27,7 @@ wp-nav:
     url: "/whitepaper/#contextrequirements-"
     title: Context/Requirements
   -
-    children:        
+    children:
       -
         title: "The need for a robust sense of ownership for all contributors from the idea to the first financial pledge and beyond"
         url: "/whitepaper/#the-need-for-a-robust-sense-of-ownership-for-all-contributors-from-the-idea-to-the-first-financial-pledge-and-beyond"
@@ -79,7 +79,7 @@ wp-nav:
         title: License
         url: "/whitepaper/#license-"
     title: "Intellectual Property Protection"
-    url: "/whitepaper/#intellectual-property-protection-"
+    url: "/whitepaper/#intellectual-property-protection"
   -
     title: "Encouragement to Share"
     url: "/whitepaper/#encouragement-to-share"
