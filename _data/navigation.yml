@@ -15,12 +15,10 @@ wp-nav:
   -
     children:
       -
-        title: Background
-        url: "/whitepaper/#background"
-      -
         title: "the UN SDGs"
+        url: "/whitepaper/#the-un-sdgs"
     title: Background
-    url: "/whitepaper/#the-un-sdgs"
+    url: "/whitepaper/#background"
   -
     children:
       -
