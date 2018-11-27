@@ -510,9 +510,3 @@ sns.lineplot(x='commit_date', y='transaction.nb_tokens', data=df, hue='committer
 
 
 ![png](/assets/images/output_12_1.png)
-
-
-
-```python
-
-```
