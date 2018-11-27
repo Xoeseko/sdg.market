@@ -2,7 +2,7 @@
 
 ```python
 import requests
-import pandas as pd 
+import pandas as pd
 from pandas.io.json import json_normalize
 
 url = "https://sdg-market.oniabsis.com/api/v1/contributions"
@@ -418,20 +418,6 @@ df.sample(5)
 import matplotlib as plt
 import seaborn as sns
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    ModuleNotFoundError                       Traceback (most recent call last)
-
-    <ipython-input-110-ab1c30aeb88e> in <module>
-          1 import matplotlib as plt
-          2 import seaborn as sns
-    ----> 3 import pyplot
-    
-
-    ModuleNotFoundError: No module named 'pyplot'
-
 
 
 ```python
