@@ -5,6 +5,8 @@ permalink: /whitepaper/
 sidebar:
   title: "Navigate"
   nav: wp-nav
+header:
+  image: /assets/images/head
 ---
 
 # sdg.market
