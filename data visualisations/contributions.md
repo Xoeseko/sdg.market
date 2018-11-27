@@ -436,7 +436,7 @@ sns.pairplot(df, vars=plotlist, hue='committer_username', diag_kind='hist')
 
 
 
-![png](output_7_1.png)
+![png](/assets/images/output_7_1.png)
 
 
 
@@ -452,7 +452,7 @@ sns.pairplot(df, vars=plotlist, hue='git_project.name', diag_kind='hist')
 
 
 
-![png](output_8_1.png)
+![png](/assets/images/output_8_1.png)
 
 
 ### Let me plot the dates separately since they are not really evident to see in the pairplot
@@ -474,7 +474,7 @@ df[['commit_date', 'transaction.nb_tokens']].set_index('commit_date').plot()
 
 
 
-![png](output_10_2.png)
+![png](/assets/images/output_10_2.png)
 
 
 
@@ -492,7 +492,7 @@ sns.lineplot(x='commit_date', y='transaction.nb_tokens', data=df, hue='git_proje
 
 
 
-![png](output_11_1.png)
+![png](/assets/images/output_11_1.png)
 
 
 
@@ -509,7 +509,7 @@ sns.lineplot(x='commit_date', y='transaction.nb_tokens', data=df, hue='committer
 
 
 
-![png](output_12_1.png)
+![png](/assets/images/output_12_1.png)
 
 
 
