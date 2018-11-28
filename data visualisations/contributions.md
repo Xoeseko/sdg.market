@@ -2,7 +2,7 @@
 
 ```python
 import requests
-import pandas as pd 
+import pandas as pd
 from pandas.io.json import json_normalize
 
 url = "https://sdg-market.oniabsis.com/api/v1/contributions"
@@ -420,20 +420,6 @@ import seaborn as sns
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    ModuleNotFoundError                       Traceback (most recent call last)
-
-    <ipython-input-110-ab1c30aeb88e> in <module>
-          1 import matplotlib as plt
-          2 import seaborn as sns
-    ----> 3 import pyplot
-    
-
-    ModuleNotFoundError: No module named 'pyplot'
-
-
-
 ```python
 from datetime import date
 df['commit_date'] = pd.to_datetime(df['commit_date'])
@@ -450,7 +436,7 @@ sns.pairplot(df, vars=plotlist, hue='committer_username', diag_kind='hist')
 
 
 
-![png](output_7_1.png)
+![png](../assets/images/output_7_1.png)
 
 
 
@@ -466,7 +452,7 @@ sns.pairplot(df, vars=plotlist, hue='git_project.name', diag_kind='hist')
 
 
 
-![png](output_8_1.png)
+![png](../assets/images/output_8_1.png)
 
 
 ### Let me plot the dates separately since they are not really evident to see in the pairplot
@@ -488,7 +474,7 @@ df[['commit_date', 'transaction.nb_tokens']].set_index('commit_date').plot()
 
 
 
-![png](output_10_2.png)
+![png](../assets/images/output_10_2.png)
 
 
 
@@ -506,7 +492,7 @@ sns.lineplot(x='commit_date', y='transaction.nb_tokens', data=df, hue='git_proje
 
 
 
-![png](output_11_1.png)
+![png](../assets/images/output_11_1.png)
 
 
 
@@ -523,10 +509,4 @@ sns.lineplot(x='commit_date', y='transaction.nb_tokens', data=df, hue='committer
 
 
 
-![png](output_12_1.png)
-
-
-
-```python
-
-```
+![png](../assets/images/output_12_1.png)
