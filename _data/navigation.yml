@@ -10,7 +10,7 @@ main:
     url: /questions/
   -
     title: contributions
-    url: "/data visualisations/contributions/"
+    url: "/data visualisations/contributions"
 wp-nav:
   -
     title: Introduction
