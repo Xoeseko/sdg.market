@@ -118,6 +118,7 @@ c. it could be a percentage (e.g. 1%), but this may over incentivize early cash 
 ### Creating a SDG Commitment:
 
 #### SDG Token Signature:
+![png](../assets/images/flavors.jpeg)
 The SDG Market is about pushing impact investment to make the world a better place. In the description so far, it was assumed that projects respect the SDGs, but no commitment is enforced. Signing tokens with a basket of SDGs would be the "SDG Signature" of a project.
 
 In terms of SDG commitment, a project may define itself as SDG_{1-17}={0.,0.3,0.5,0,0,0.1,...,0.2}, with a vector reflecting the SDG aims.
@@ -128,7 +129,7 @@ This approach is problematic as the SDG flavors may change as the project evolve
 #### SDG Investment Signature:
 Another way is to let the investors decide what SDG flavor a project has. Let's consider that a cash investor may want to trade with a project that she has identified with a "gender equality" flavor. By making her investment, she signals a project as important for gender equality (SDG 5). Another investor may decide that the same project is important for water sanitation (SDG 6), and shall invest in proportion of her beliefs. The proportion of cash investments shall signal the SDG flavor of a project, and the evolution of its SDG Flavor over time, as people invest and divest from a project when selling tokens for investments with different flavors.
 
-![png](../assets/images/flavors.jpeg)
+
 
 The investor may at any time "taint" a cash investment with only one SDG. And in some cases, the counter part shall only trade is a specific unique flavor. The token exchanged against cash remains "tainted" with a unique SDG flavor until it gets sold against another cash investment. So a token flavored with SDG1 may be traded against cash flavored with SDG5, and will become SDG5 flavored as a result.
 
