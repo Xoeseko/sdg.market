@@ -215,7 +215,7 @@ One the main problem with collective production is how the value of IP is shared
 => plagiarism detection
 
 ### License :
-![png](../assets/images/License.jpeg)
+![png](../assets/images/license.jpeg)
 
 We shall invent a new license that enforces :
 - open source
