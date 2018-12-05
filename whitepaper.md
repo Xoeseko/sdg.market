@@ -20,6 +20,8 @@ Here, we propose that at least some of the motivations and norms are fungible in
 
 In this whitepaper, we propose a (decentralized) mechanism design to fulfill the requirements of open source yet with a fair attribution of the value of contributions to projects by individuals over the course of a project. This fair attribution shall become fungible with real (or virtual) currency when investors start pledging/pledging money in the contributed  project.
 
+![png](../assets/images/decentralized.jpeg)
+
 ## Background
 * markets as a driver for trust : people make contracts
 * Adam Smith
@@ -213,6 +215,8 @@ One the main problem with collective production is how the value of IP is shared
 => plagiarism detection
 
 ### License :
+![png](../assets/images/License.jpeg)
+
 We shall invent a new license that enforces :
 - open source
 - provisional financial attribution based on share ownership, which itself is based on the contribution & trading trails over the whole history of the project.
