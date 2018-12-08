@@ -83,6 +83,7 @@ Our core proposition is that contributions to projects (as well as other actions
 This *exchange* offers the possibility of diversification between projects. Yet, it is arguably complicated for people to decide how to trade tokens one to one. At the same time, there is no currency involved.
 
 ### A Smart Contract to define the project and challenge game rules
+![png](../assets/images/trading_rules.jpeg)
 Every project is unique however in its aims, proceedings and reward mechanisms. We envision that the reward and trading rules of each project shall be coded in a smart contract, issued at the beginning of the project. The smart contract may in particular specify under which license produced contents shall be distributed. Similarly, a challenge (i.e., a group of projects with similar aims and values) shall define which project is acceptable for the challenge. In particular, a challenge may target a specific SDG or sub-SDG.
 
 The project (resp. challenge) smart contract shall in particular determine which kind of investment, it may receive, whether for profit or philanthropic.
@@ -257,6 +258,7 @@ Not clear how we can have a merge happen besides reusing parts of one project to
 (I would not advocate for a negotiation based bargain/deal)
 
 #### Invitations & Recommendation / Pull Requests / Merge :
+![png](../assets/images/recommandation.jpeg)
 One way to share resources and effort is to recommend/invite contributors to help for a project.
 
 If an invitee to a project makes a contribution, the recommender gets half of the shares. If the invitation is carried on further, each recommender get half of the shares of her invitee. For example an invitation is carried on 3 steps and the final invitee has contributed and has received 10 shares. The person who has invited her gets 5 shares, the recommender who invited the person who has found the contributor gets 2.5 shares, and so on recursively. This mechanism offers strong incentives to reach out for targeted help, and to further build the community (It was used for the DARPA Grand Balloon Challenge).

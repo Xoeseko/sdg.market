@@ -59,7 +59,7 @@ df.columns
 
 
 ```python
-# The list of fetures we are actually going to use the other categorical values can be used as hues
+# The list of features we are actually going to use the other categorical values can be used as hues
 plotlist = ['commit_date', 'git_project.project_value','transaction.nb_tokens']
 df[plotlist].sample(5)
 ```
