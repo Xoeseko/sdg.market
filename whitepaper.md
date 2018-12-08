@@ -7,9 +7,6 @@ sidebar:
   nav: wp-nav  
 header:
   image: /assets/images/head.jpeg
-  img[alt$=">"] {
-    float: right;
-  }
 ---
 
 # sdg.market
