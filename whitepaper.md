@@ -1,3 +1,4 @@
+![png](../assets/images/transparency_text.jpg){:style="float: right;"}
 ---
 layout: single
 title: Whitepaper
@@ -8,7 +9,7 @@ sidebar:
 header:
   image: /assets/images/head.jpeg
 ---
-![png](../assets/images/transparency_text.jpg){:style="float: right;"}
+
 # sdg.market
 
 **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
