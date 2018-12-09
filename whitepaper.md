@@ -1,4 +1,3 @@
-![png](../assets/images/transparency_text.jpg){:style="float: right;"}
 ---
 layout: single
 title: Whitepaper
@@ -15,6 +14,8 @@ header:
 **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
 
 ## Introduction
+
+![image-right](../assets/images/transparency_text.jpg){: .align-right}
 
 We recognize the prime importance of transparency, attribution and accountability of knowledge production. We consider that the progress of humanity at scale requires strong incentives to produce, share and operationalize knowledge through actions, systems, products. These artifacts can then have a positive impact in order to overcome some of the most pressing challenges of our times (e.g., climate change, gender equality, reduction of poverty). The challenge of collective knowledge production entails most often latent social and economic components. For instance, contributors to Open Source Software (OSS) or Wikipedia resort to a mix of instrinsic and extrinsic motivations that determine their engagement []. Involvement in peer-production generally requires understanding a set of more or less implicit norms, which cement the community yet often at the cost of some entry barriers. Most open source projects have suffered from these barriers [ref].
 
