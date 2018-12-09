@@ -8,20 +8,16 @@ sidebar:
 header:
   image: /assets/images/head.jpeg
 ---
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div>
+  <nav>
+    <img src="/assets/images/transparency_text.JPG">
+  </nav>
 </div>
 # sdg.market
 
 **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
 
 ## Introduction
-
-![image-right](../assets/images/transparency_text.jpg){: .align-right}
-
 We recognize the prime importance of transparency, attribution and accountability of knowledge production. We consider that the progress of humanity at scale requires strong incentives to produce, share and operationalize knowledge through actions, systems, products. These artifacts can then have a positive impact in order to overcome some of the most pressing challenges of our times (e.g., climate change, gender equality, reduction of poverty). The challenge of collective knowledge production entails most often latent social and economic components. For instance, contributors to Open Source Software (OSS) or Wikipedia resort to a mix of instrinsic and extrinsic motivations that determine their engagement []. Involvement in peer-production generally requires understanding a set of more or less implicit norms, which cement the community yet often at the cost of some entry barriers. Most open source projects have suffered from these barriers [ref].
 
 Here, we propose that at least some of the motivations and norms are fungible in a decentralized mechanism design (a market blueprint), which in turn would create new scaling opportunities, in particular by reaching broader communities of contributors, who are not necessarily tuned to the subtleties of open source explicit and implicit rules, yet may wish to contribute to and "be part" of projects that have the potential to help overcome challenges they particularly care of.
