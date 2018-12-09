@@ -5,6 +5,6 @@
 #layout: home
 ---
 
-# sdg.market
+//# sdg.market
 
 **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
