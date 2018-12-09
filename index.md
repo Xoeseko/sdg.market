@@ -5,14 +5,10 @@
 #layout: home
 ---
 
-<html>
-<head>
-  <link rel="stylesheet" href="testCSS.css">
-</head>
-<body>
-  <div class="lds-circle"><div></div></div>
-</body>
-</html>
+
+<link rel="stylesheet" href="testCSS.css">
+<div class="lds-circle"><div></div></div>
+
 
 # sdg.market
 
