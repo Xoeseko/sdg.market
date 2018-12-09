@@ -9,9 +9,9 @@ header:
   image: /assets/images/head.jpeg
 ---
 <div>
-  <nav>
+  <aside>
     <img src="/assets/images/head.jpeg" width="600px" >
-  </nav>
+  </aside>
 </div>
 # sdg.market
 
