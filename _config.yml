@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: SDG market complementary website
-email: xoeseko@gamil.com
+email: xoeseko@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
   This website is developped by Sofia Delijaj and Xoeseko Nyomi as part of their Open Science project.
@@ -62,3 +62,5 @@ minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "di
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#theme: jekyll-theme-minimal
