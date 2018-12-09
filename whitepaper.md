@@ -225,8 +225,6 @@ We shall invent a new license that enforces :
 
 
 ## Encouragement to Share
-Batbileg Bayarbileg - For his excellent job at "adding images to a doc file". His words for this project
-shows his passion about this project : "YES, je suis le meilleur ajouteur d'image au fichier doc. Je suis très content de faire ce boulot. Et en plus je très bien payé(0 chf / heure)".
 ...
 ## Misc Chunks (to be removed at some point)
 
