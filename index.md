@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="lds-circle"><div></div></div>
-<body>
+</body>
 
 
 # sdg.market
