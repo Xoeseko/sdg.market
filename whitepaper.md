@@ -10,7 +10,9 @@ header:
 ---
 <div>
   <nav>
-    <img src="/assets/images/transparency_text.JPG">
+    <img src="
+        sdg.market/assets/images/transparency_text.JPG
+      ">
   </nav>
 </div>
 # sdg.market
