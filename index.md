@@ -6,7 +6,7 @@
 ---
 
 
-<link rel="stylesheet" href="testCSS.css">
+(setq markdown-css-paths '("testCSS.css"))
 <div class="lds-circle"><div></div></div>
 
 
