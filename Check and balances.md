@@ -11,7 +11,7 @@ In this case. Delijaj is the seller and Nyomi the buyer.
 While testing the trading system on the 3<sup>rd</sup> auction, a seller decided to trad some parts of the project. 
 However, she did not own any part of it but the website let her do it anyway. The parts were at 50 token. A buyer 
 decided to acquire those parts. The exchange was made and the seller finished with a -50 on the project (like a debt).
-This shouldn't happend since the parts must be only managed by the contributors and nobody else, and also to prevent any scam.
+This shouldn't happend since the parts must be only managed by the contributors and nobody else.
 
 ## Licence
 I don’t see the point on creating a new licence. I feel like we should use what we already have since creating such a licence 
@@ -19,6 +19,9 @@ would be assembling existing licences. (and some project would have similar stuf
 “provisional financial attribution based on share ownership, which itself is based on the contribution & trading trails
 over the whole history of the project.” This is not in the good place for me, it should be shown at the contributor’s 
 profile and thus on how we manage the profiles.
+
+## Rewards for reuse of modules outside of the project
+This a very good idea but as the state of the website now, we don't have any real bloc or even the possibility to use something.
 
 ## Encouragement to Share
 In what way?By social media? By sharing with other people you “followed” on the platform?
@@ -32,3 +35,7 @@ investors looking at projects and notify the person (with a button on the projec
 
 ## Completing/finilise the whitepaper
 The whitepaper as it is today feels uncomplete. Some text is just an enumeration of ideas and deosn't look that nice in it.
+And we have some parts (for instance: Merge of two projects) that are empty.
+
+## The state of the project
+The website is very basic and we cannot really test some of the functionalities such as the anti-spam/sabotaging implementation, the invitation to perform a contribution etc.
