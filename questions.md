@@ -18,3 +18,4 @@ The value of the token is then the impact and not just the number of contributio
 7. Is it not dangerous to have access tokens accessible through the API ?
 8. Adding a simple jupyter notebook with some images rendered ended up becoming 98% of the project... In terms of bytes most likely is that really represetntative of work put into the project ?
 9. Since all the information on the project value is stored on a central server isn't it actually centralized rather than decentralized
+10. As raised by Bayar, the gamification is interesting so is the valuation possibility but what about capital gains, dividends or interests..? These questions deserve reflection.
