@@ -85,6 +85,10 @@
                 }
         });
 
+        $('.fl').css({
+          'display': 'none'
+        });
+
         //Time to hide fakeLoader
         setTimeout(function(){
             $(el).fadeOut();
@@ -112,7 +116,8 @@
             $('.fl').css({
                 'position':'absolute',
                 'left':(winW/2)-(spinnerW/2),
-                'top':(winH/2)-(spinnerH/2)
+                'top':(winH/2)-(spinnerH/2),
+                'display':'block'
             });
 
         }
