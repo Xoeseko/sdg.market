@@ -47,8 +47,7 @@
     <script>
 
       $(document).ready(function(){
-        alert($("#layout--home").length > 0);
-        /*if($("#archive__subtitle").length > 0){
+        if($('layout--home').is('.layout--home')){
           $("#fakeloader").fakeLoader({
                 timeToHide:2000,
                 bgColor:"#cdcdcd",
@@ -62,7 +61,7 @@
                 spinner:"spinner6"
           });
         }
-      });*/
+      });
 
 
     </script>
