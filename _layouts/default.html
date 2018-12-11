@@ -47,7 +47,7 @@
     <script>
 
       $(document).ready(function(){
-        if($('layout--home') == ('layout--home')){
+        if($('body').is('.layout--home')){
           $("#fakeloader").fakeLoader({
                 timeToHide:2000,
                 bgColor:"#cdcdcd",
@@ -57,7 +57,7 @@
         else{
           $("#fakeloader").fakeLoader({
                 timeToHide:200,
-                bgColor:"#bfbfbf",
+                bgColor:"#addaef",
                 spinner:"spinner6"
           });
         }
