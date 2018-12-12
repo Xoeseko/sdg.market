@@ -12,7 +12,7 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    <link rel="stylesheet" href="/sdg.market/css/fakeLoader.css">
+    <link rel="stylesheet" href="/sdg.market/assets/css/fakeLoader.css">
   </head>
 
 
@@ -43,9 +43,8 @@
     {% include scripts.html %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/sdg.market/js/fakeLoader.js"></script>
+    <script src="/sdg.market/assets/js/fakeLoader.js"></script>
     <script>
-
       $(document).ready(function(){
         if($('body').is('.layout--home')){
           $("#fakeloader").fakeLoader({
@@ -63,8 +62,6 @@
           });
         }
       });
-
-
     </script>
   </body>
 </html>
