@@ -9,18 +9,16 @@ main:
     title: Questions
     url: /questions/
 wp-nav:
-  - 
+  -
     title: Introduction
     url: "/whitepaper/#introduction"
   -
     children:
       -
-        title: Background
-        url: "/whitepaper/#background"
-      -
         title: "the UN SDGs"
+        url: "/whitepaper/#the-un-sdgs"
     title: Background
-    url: "/whitepaper/#the-un-sdgs"
+    url: "/whitepaper/#background"
   -
     children:
       -
@@ -29,7 +27,7 @@ wp-nav:
     url: "/whitepaper/#contextrequirements-"
     title: Context/Requirements
   -
-    children:        
+    children:
       -
         title: "The need for a robust sense of ownership for all contributors from the idea to the first financial pledge and beyond"
         url: "/whitepaper/#the-need-for-a-robust-sense-of-ownership-for-all-contributors-from-the-idea-to-the-first-financial-pledge-and-beyond"
@@ -79,8 +77,9 @@ wp-nav:
     children:
       -
         title: License
+        url: "/whitepaper/#license-"
     title: "Intellectual Property Protection"
-    url: "/whitepaper/#license-"
+    url: "/whitepaper/#intellectual-property-protection"
   -
     title: "Encouragement to Share"
     url: "/whitepaper/#encouragement-to-share"
@@ -96,8 +95,8 @@ wp-nav:
         title: "Next steps"
         url: "/whitepaper/#next-steps-"
       -
-        title: initial-funding--initial-coin-offering-ico-
-        url: "/whitepaper/#Initial funding & initial coin offering"
+        title: "Initial funding & initial coin offering"
+        url: "/whitepaper/#initial-funding--initial-coin-offering-ico-"
       -
         title: Apendices
         url: "/whitepaper/#apendices"
