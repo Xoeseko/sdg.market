@@ -14,12 +14,12 @@
     {% include head/custom.html %}
     <link rel="stylesheet" href="/css/fakeLoader.css">
   </head>
-<div id="fakeloader"></div>
+
 
 
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
+    <div id="fakeloader"></div>
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
 
