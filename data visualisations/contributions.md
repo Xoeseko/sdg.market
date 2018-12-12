@@ -1,3 +1,9 @@
+---
+layout: single
+classes: wide
+title: Contributions
+permalink: /data%20visualisations/contributions
+---
 # Output of Jupyter notebook
 ## Aim is to visualise contributions to tracked projects
 

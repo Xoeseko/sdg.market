@@ -27,14 +27,30 @@ github_username:  Xoeseko and Sofia-Pika
 
 # Build settings
 markdown: kramdown
-#theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark"
+##theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-paginate
-repository: bayar4b/bayar4b.github.io
+
+defaults:
+  #_posts
+   -
+     scope:
+      path: ""
+      type: posts
+     values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+repository: Xoeseko/sdg.market
+minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
