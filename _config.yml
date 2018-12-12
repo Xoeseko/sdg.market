@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: SDG market complementary website
-email: xoeseko@gamil.com
+email: xoeseko@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
   This website is developped by Sofia Delijaj and Xoeseko Nyomi as part of their Open Science project.
@@ -27,12 +27,29 @@ github_username:  Xoeseko and Sofia-Pika
 
 # Build settings
 markdown: kramdown
-#theme: minimal-mistakes-jekyll
+##theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-paginate
+
+defaults:
+  #_posts
+   -
+     scope:
+      path: ""
+      type: posts
+     values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+repository: Xoeseko/sdg.market
+minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -45,3 +62,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#theme: jekyll-theme-minimal
