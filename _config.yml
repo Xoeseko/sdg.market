@@ -29,7 +29,7 @@ github_username:  Xoeseko and Sofia-Pika
 markdown: kramdown
 #theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
-#remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
