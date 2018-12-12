@@ -46,10 +46,20 @@
     <script src="/sdg.market/assets/js/fakeLoader.js"></script>
     <script>
       $(document).ready(function(){
-        if($('body').is('.layout--home')){
+        var n = localStorage.getItem('on_load_counter');
+        if(($('body').is('.layout--home')) && (n == 1)){
           $("#fakeloader").fakeLoader({
-                timeToHide:2000,
-                bgColor:"#ffffff",
+                timeToHide:3000,
+                bgColor:"#000000",
+                spinner:"spinner6",
+                imagePath:"coinflip.gif"
+          });
+          localStorage.setItem('on_load_counter',2);
+        }
+        else if($('body').is('.layout--home') && (localStorage.getItem('on_load_counter') != 1)){
+          $("#fakeloader").fakeLoader({
+                timeToHide:500,
+                bgColor:"#afafaf",
                 spinner:"spinner6",
                 imagePath:"coinflip.gif"
           });
