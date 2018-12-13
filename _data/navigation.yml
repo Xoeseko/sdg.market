@@ -3,6 +3,9 @@ main:
     title: "Checks and balances"
     url: /checks_and_balances/
   -
+    title: "Token chart"
+    url: /data visualisations/dynamicVisu
+  -
     title: Whitepaper
     url: /whitepaper/
   -
