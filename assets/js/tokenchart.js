@@ -1,4 +1,4 @@
-(function ($) {
+(function tokenchart(){
 
   Plotly.d3.csv("https://raw.githubusercontent.com/Xoeseko/sdg.market/gh-pages/data%20visualisations/contributionsByDate.csv", function(err, rows){
 
