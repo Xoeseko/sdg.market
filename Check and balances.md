@@ -28,7 +28,7 @@ For instance, we could have a link to some social media such as Facebook or at l
 
 ## Merge of two projects
 As in the whitepaper it is stated that they don’t know how to make this happened, I will make a proposition.
-As we know, we are using GitHub and so we can fork projects together without loosing any previous progress from each projects and thus it can also help for the reuse of modules since we could sort of track them.
+As we know, we are using git and so we can merge projects together without loosing any previous progress from each projects and thus it can also help for the reuse of modules since we could sort of track them.
 
 ## Rewards for reuse of modules outside of the project
 This a very good idea but as the state of the website now, we don't have any real bloc or even the possibility to use something.
