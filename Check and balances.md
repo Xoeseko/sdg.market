@@ -6,7 +6,7 @@ permalink: /checks_and_balances/
 
 # Check and balances : sdg.market
 
-## Selling project parts without owning some
+## Selling project parts without owning any
 In this case. Delijaj is the seller and Nyomi the buyer.
 While testing the trading system on the 3<sup>rd</sup> auction, a seller decided to trad some parts of the project.
 However, she did not own any part of it but the website let her do it anyway. The parts were at 50 token. A buyer
