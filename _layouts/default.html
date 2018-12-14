@@ -12,7 +12,8 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    <link rel="stylesheet" href="/sdg.market/assets/css/fakeLoader.css">
+    <link rel="stylesheet" href="/assets/css/fakeLoader.css">
+    <script type="text/javascript" href="{{'/assets/js/tokenchart.js?v=' | append: site.github.build_revision | relative_url}}">
   </head>
 
 
