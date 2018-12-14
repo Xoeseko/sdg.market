@@ -49,4 +49,4 @@
 
   Plotly.newPlot('myDiv', data, layout);
   })
-}(jQuery));
+};
