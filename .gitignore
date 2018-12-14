@@ -5,4 +5,3 @@ Gemfile
 Gemfile.lock
 _config.yml
 *.ipynb
-vendor/
