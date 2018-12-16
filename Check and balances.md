@@ -6,16 +6,9 @@ permalink: /checks_and_balances/
 
 # Check and balances : sdg.market
 
-## Selling project parts without owning any
-In this case. Delijaj is the seller and Nyomi the buyer.
-While testing the trading system on the 3<sup>rd</sup> auction, a seller decided to trad some parts of the project.
-However, she did not own any part of it but the website let her do it anyway. The parts were at 50 token. A buyer
-decided to acquire those parts. The exchange was made and the seller finished with a -50 on the project (like a debt).
-The admin of the project should have the power to say if he wants or not such things.
 
 ## Licence
-I don’t see the point on creating a new licence. I feel like we should use what we already have since creating such a licence
-would be assembling existing licences. (and some project would have similar stuff).
+I don’t see the point on creating a new licence, there is already a lot of work being done in that area with licenses like AGPL and SSPL for example. I feel like we should use what we already have since creating such a licence.
 “provisional financial attribution based on share ownership, which itself is based on the contribution & trading trails
 over the whole history of the project.” This is not in the good place for me, it should be shown at the contributor’s
 profile and thus on how we manage the profiles.
