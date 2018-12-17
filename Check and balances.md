@@ -6,16 +6,9 @@ permalink: /checks_and_balances/
 
 # Check and balances : sdg.market
 
-## Selling project parts without owning any
-In this case. Delijaj is the seller and Nyomi the buyer.
-While testing the trading system on the 3<sup>rd</sup> auction, a seller decided to trad some parts of the project.
-However, she did not own any part of it but the website let her do it anyway. The parts were at 50 token. A buyer
-decided to acquire those parts. The exchange was made and the seller finished with a -50 on the project (like a debt).
-The admin of the project should have the power to say if he wants or not such things.
 
 ## Licence
-I don’t see the point on creating a new licence. I feel like we should use what we already have since creating such a licence
-would be assembling existing licences. (and some project would have similar stuff).
+I don’t see the point on creating a new licence, there is already a lot of work being done in that area with licenses like AGPL and SSPL for example. I feel like we should use what we already have since creating such a licence.
 “provisional financial attribution based on share ownership, which itself is based on the contribution & trading trails
 over the whole history of the project.” This is not in the good place for me, it should be shown at the contributor’s
 profile and thus on how we manage the profiles.
@@ -28,7 +21,7 @@ For instance, we could have a link to some social media such as Facebook or at l
 
 ## Merge of two projects
 As in the whitepaper it is stated that they don’t know how to make this happened, I will make a proposition.
-As we know, we are using GitHub and so we can fork projects together without loosing any previous progress from each projects and thus it can also help for the reuse of modules since we could sort of track them.
+As we know, we are using git and so we can merge projects together without loosing any previous progress from each projects and thus it can also help for the reuse of modules since we could sort of track them.
 
 ## Rewards for reuse of modules outside of the project
 This a very good idea but as the state of the website now, we don't have any real bloc or even the possibility to use something.
