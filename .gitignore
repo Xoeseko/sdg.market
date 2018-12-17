@@ -1,4 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
+Gemfile
+Gemfile.lock
+_config.yml
 *.ipynb
+vendor/
