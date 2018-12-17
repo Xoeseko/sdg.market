@@ -3,16 +3,13 @@ main:
     title: "Checks and balances"
     url: /checks_and_balances/
   -
-    title: "Token chart"
-    url: /data visualisations/dynamicVisu
-  -
     title: Whitepaper
     url: /whitepaper/
   -
     title: Questions
     url: /questions/
   -
-    title: contributions
+    title: Contributions
     url: "/data visualisations/contributions"
 wp-nav:
   -
