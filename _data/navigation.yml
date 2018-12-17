@@ -8,8 +8,11 @@ main:
   -
     title: Questions
     url: /questions/
+  -  
+    title: "Token chart"
+    url: /data visualisations/dynamicVisu
   -
-    title: contributions
+    title: Contributions
     url: "/data visualisations/contributions"
 wp-nav:
   -
