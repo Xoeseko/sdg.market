@@ -2,6 +2,9 @@
 layout: single
 title: Checks and Balances
 permalink: /checks_and_balances/
+sidebar:
+  title: "Navigate"
+  nav: cb-nav  
 ---
 
 # Working implementations :
