@@ -13,7 +13,7 @@ header:
 **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
 
 ## Introduction
-We recognize the prime importance of transparency, attribution and accountability of knowledge production. We consider that the progress of humanity at scale requires strong incentives to produce, share and operationalize knowledge through actions, systems, products. These artifacts can then have a positive impact in order to overcome some of the most pressing challenges of our times (e.g., climate change, gender equality, reduction of poverty). The challenge of collective knowledge production entails most often latent social and economic components. For instance, contributors to Open Source Software (OSS) or Wikipedia resort to a mix of instrinsic and extrinsic motivations that determine their engagement []. Involvement in peer-production generally requires understanding a set of more or less implicit norms, which cement the community yet often at the cost of some entry barriers. Most open source projects have suffered from these barriers [ref].
+We recognize the prime importance of transparency, attribution and accountability of knowledge production. We consider that the progress of humanity at scale requires strong incentives to produce, share and operationalize knowledge through actions, systems, products. These artifacts can then have a positive impact in order to overcome some of the most pressing challenges of our times (e.g., climate change, gender equality, reduction of poverty). The challenge of collective knowledge production entails most often latent social and economic components. For instance, contributors to Open Source Software (OSS) or Wikipedia resort to a mix of intrinsic and extrinsic motivations that determine their engagement []. Involvement in peer-production generally requires understanding a set of more or less implicit norms, which cement the community yet often at the cost of some entry barriers. Most open source projects have suffered from these barriers [ref].
 
 Here, we propose that at least some of the motivations and norms are fungible in a decentralized mechanism design (a market blueprint), which in turn would create new scaling opportunities, in particular by reaching broader communities of contributors, who are not necessarily tuned to the subtleties of open source explicit and implicit rules, yet may wish to contribute to and "be part" of projects that have the potential to help overcome challenges they particularly care of.
 
@@ -28,7 +28,7 @@ In this whitepaper, we propose a (decentralized) mechanism design to fulfill the
 * the devil lies in details : full transparency of the market design in this white paper
 
 ### the UN SDGs
-The 17 United Nations (UN) Sustainable Development Goals (SDGs) have set an agenda to make the world more sustainable by 2030. The SDGs follow the Millenium Goals, which were set for the period 2000 until 2015.
+The 17 United Nations (UN) Sustainable Development Goals (SDGs) have set an agenda to make the world more sustainable by 2030. The SDGs follow the Millennium Goals, which were set for the period 2000 until 2015.
 
 Here, we believe that sharing and exchanging valuable open knowledge as well as expertise associated with concrete projects aimed at the SDGs, is a way to go that empowers all people willing to contribute.
 
@@ -78,7 +78,7 @@ Additionally, a project gets robust through a thorough peer-review process, whic
 
 Many projects can sustain for a long while without financial resources, and as such remain "unfungible" during this time. This is usually an issue, because projects/startups without investment don't have proper continuous valuation. In turn, the lack of valuation prevents attributing value to the fine-grained actions performed by contributors.
 
-Our core proposition is that contributions to projects (as well as other actions) generate tokens. We will detail in section XX which actions generate rewards through the generation of token. In turn, these tokens can be traded on their "foster" value until proper financing kicks-in (see next section).
+Our core proposition is that contributions to projects (as well as other actions) generate tokens. We will detail in section [Rewards for Contributions, Tasks and Actions](#rewards-for-contributions-tasks-and-actions-) which actions generate rewards through the generation of tokens. In turn, these tokens can be traded on their "foster" value until proper financing kicks-in (see next section).
 
 This *exchange* offers the possibility of diversification between projects. Yet, it is arguably complicated for people to decide how to trade tokens one to one. At the same time, there is no currency involved.
 
@@ -93,7 +93,7 @@ The project (resp. challenge) smart contract shall in particular determine which
 ![png](../assets/images/market.jpeg)  
 The SDG Market is where tokens of all projects are traded. One can place an offer to buy tokens of a new project in exchange of a fraction (resp. multiple) of token from an existing project.
 
-There is not initial coin offering. As soon as project tokens are generated by contributions and actions, they can be traded on the SDG.market, under condition that the project respects the charter of the SDG Market (i.e. see associated smart contract).
+There is no initial coin offering. As soon as project tokens are generated by contributions and actions, they can be traded on the SDG.market, under condition that the project respects the charter of the SDG Market (i.e. see associated smart contract).
 
 Through transactions performed by participants, the SDG Market essentially plays the role of revealing the "true" value (or at least the perceived value) of projects. It also offers opportunities to invest early in a project without actually contributing or performing actions.
 
@@ -114,7 +114,7 @@ or
 
 2. The second option is more like a Tobin tax, which neither requires consensus nor token creation. The Tobin tax function is set in the project smart contract. For each transaction involving cash, the buyer must pay an additional fee to the project (or equivalently, a share of her down payment of a given amount of tokens goes to the project). This tax can be factors more than the value of the shares, and may actually evolve with the value of tokens. Several mechanisms may be possible :
 a. it can be a flat rate per share, e.g., 1 CHF per token sold. For low value tokens, the price to pay is high, which is punitive, yet could bring cash to a project in difficulty. So for instance, if a token holder sells 10 tokens for 1 Swiss Francs, the per token tax may be 10 CHF (100%). On the contrary, if the token holder sells 1 token for 10 Swiss Francs, the tax is 1 CHF (10%).
-b. it could be a flatrate tax on the transaction : 10 CHF whatever transaction. It's even more punitive because it forces large volumes, unlike option (a), which is punitive on the number of token exchanged.
+b. it could be a flatrate tax on the transaction : 10 CHF whatever transaction. It's even more punitive because it forces large volumes, unlike option (a), which is punitive on the number of tokens exchanged.
 c. it could be a percentage (e.g. 1%), but this may over incentivize early cash inflow
 
 3. The third option is an hybrid of 1 and 2a. : For each transaction, some tokens are distributed as a counterpart of the tax (it's technically no longer a tax). For each transaction there is flat rate to pay per share to pay to the project, e.g.. 1 CHF per token. As a counterpart, a fraction/multiple of token is distributed as the inverse function of the current token value. For instance, if the token value is 1 CHF then the buyer receives 1 new token. If the value is 10 CHF, then the buyer receives 0.1 token. If the value is 100 CHF, then the buyer receives 0.01 token. And so on. This mechanism is particularly nice because it helps someone buy out quickly an abandoned project, also bringing in cash resources, and thus, reviving interest in the project.
@@ -187,7 +187,7 @@ If the invited lurker has not previously contributed to the project she gets a 5
 * Practical Issues :
 	- an invitee new to the system should create an account (equiv. a wallet)
 => one way is to create immediately a wallet per email address. The account can be confirmed later (different emails can be confirmed and consolidated in one account)
-	- an anti-spam mechanism might be needed, based on peer-review, or by providing a button in the email sent for the invitee to report spam. To deter spam, each invitation may a cost a very small fee (0.05). Similarly, a request to contribute shall cost a very small fee (0.05), reimbursed when the contribution is accepted.
+	- an anti-spam mechanism might be needed, based on peer-review, or by providing a button in the email sent for the invitee to report spam. To deter spam, each invitation may cost a very small fee (0.05). Similarly, a request to contribute shall cost a very small fee (0.05), reimbursed when the contribution is accepted.
 
 
 ### Sophisticated Rule :
