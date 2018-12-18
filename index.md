@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# sdg.market
-
 **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
 
 This website is developped by Sofia Delijaj and Xoeseko Nyomi as part of their Open Science project.
