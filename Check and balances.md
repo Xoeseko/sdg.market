@@ -90,9 +90,8 @@ As we know, we are using git and so we can merge projects together without loosi
 ## Rewards for reuse of modules outside of the project
 This a very good idea but as the state of the website now, we don't have any real bloc or even the possibility to use something.
 
-## Completing/finilise the whitepaper
+## Completing/finalize the whitepaper
 The whitepaper as it is today feels uncomplete. Some text is just an enumeration of ideas and doesn't look that nice in it. And we have some parts (for instance: Merge of two projects), that are missing (there's no bouton or anything to prove that some options are implemented).
 
 ## the state of the project
 The website is very basic and we cannot really test some of the functionalities such as the anti-spam/sabotaging implementation and the modules reuse.
-
