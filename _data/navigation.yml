@@ -8,7 +8,7 @@ main:
   -
     title: Questions
     url: /questions/
-  -  
+  -
     title: "Token chart"
     url: /data visualisations/dynamicVisu
   -
@@ -108,3 +108,15 @@ wp-nav:
         url: "/whitepaper/#apendices"
     title: "Misc Chunks"
     url: "/whitepaper/#misc-chunks-to-be-removed-at-some-point"
+cb-nav:
+  -
+    title: "Working implementations"
+    url: "/checks_and_balances/#working-implementations-"
+
+  -
+    title: "Yet to be implemented"
+    url: "/checks_and_balances/#yet-to-be-implemented"
+
+  -
+    title: "Remarks"
+    url: "/checks_and_balances/#general-questions--comments"
