@@ -3,4 +3,4 @@ layout: single
 title: About
 ---
 
-![png](/mett our team.jpg)
+![png](/assets/images/meet our team.jpg)
