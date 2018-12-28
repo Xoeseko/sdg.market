@@ -2,7 +2,7 @@
 #layout: post
 title:  "Bayar joins sdg-market"
 date:   2018-11-30 15:22:34 +0100
-categories: jekyll update
+categories: reports
 author: Bayar
 ---
 ## Open Science SDG project report by Bayar
