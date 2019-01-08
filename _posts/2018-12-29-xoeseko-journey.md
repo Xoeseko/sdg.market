@@ -1,5 +1,5 @@
 ---
-layout: post
+#layout: post
 title:  "Xoeseko enters sdg-market"
 date:   2018-12-29 18:41:34 +0100
 categories: reports
