@@ -25,7 +25,7 @@ Jekyll is a simple, blog-aware, static site generator for personal, project, or 
 #### Plot.ly and D3
 They are library used to generate dynamic visualisations in Javascript and the opportunity to use it on a website (with HTML).
 
-## Research Results
+## Research Results & Solution Proposal
 ### The meeting
 After several mails we needed to meet Mr.Maillart to see what we could do to help the project without giving us too much to be able to follow the
 other courses/projects we had. As the website was pretty new, we had many different tasks which are the ones below:
@@ -51,7 +51,6 @@ other courses/projects we had. As the website was pretty new, we had many differ
 He said that we didn't have to do all of them, but we took is as a challenge.
 Afterwards, we made our repository in GitHub and created the issues on Nyomi's repository. We assigned some tasks and started to do it.
 
-## Solution Proposal
 ### Check and Balances
 I needed to review the whitepaper to see what has been done and if they managed to do what the whitepaper said. Looking at the state of the website, basic, we could imagine that it is easy. However, as there are so little information displayed (more when you are an admin) and even with testing all the options this task was
 ### Visualisation
@@ -59,9 +58,7 @@ At the beginning, I wanted to make a big chart with multiple coloured lines whic
 The Javascript language was hard to understand at some points since it's very different from the languages I know, I searched in many websites, such as Stackoverflow to find my answer (even finding what didn't work was difficult enough).
 With the poor amount of data we had, I tried, with the help of my team, to make some visualisations to have a better view of what is happening. I wanted to do a dynamic visualisation that allows you to see what is happening over time. The idea in the end is to put it available to the users, like a view of your performances. This view can allow also for the future investors. Indeed, you can look at the productivity or the effectiveness of a contributor.  
 ## Future Plans
-What needs to be done in the future according to the objective given by Maillart are mostly:
-1) finish the whitepaper since it is not complete and draft.
-2) find a purpose for the tokens, we can have some imaginary tokens and just use them into trading but that's about it.
+
 
 However, this section is mostly in [Bileg's report.](https://xoeseko.github.io/sdg.market/reports/2018/11/30/Bayar-journey)
 
