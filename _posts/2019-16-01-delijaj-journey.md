@@ -61,7 +61,7 @@ The JavaScript language was hard to understand at some points since it's very di
 With the poor amount of data we had, I tried, with the help of my team, to make some visualizations to have a better view of what is happening. I wanted to do a dynamic visualization that allows you to see what is happening over time. The idea in the end is to put it available to the users, like a view of your performances. This view can allow also for the future investors, thus you can look at the productivity or the effectiveness of a contributor.  
 ## Future Plans
 As expected, we couldn't do all issues, only the blockchain implementation remains. However we do want to try and finish it after the exams (or even get more involved with the project itself since we have few ideas and questions that we will ask Maillart when meet).
-When the website has advanced, we could test some other ideas from the whitepaper and mostly how they will use and generate the tokens (talked in Bileg's report).
+When the website has advanced, we could test some other ideas from the whitepaper and mostly how they will use and generate the tokens (mentionned in Bayar's report).
 
 ## Documentation
 - https://sdg-market.oniabsis.com/
