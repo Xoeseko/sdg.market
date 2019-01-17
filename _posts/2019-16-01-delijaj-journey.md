@@ -23,7 +23,7 @@ GitHub is a website and cloud-based service that helps developers store and mana
 #### Jekyll
 Jekyll is a simple, blog-aware, static site generator for personal or organization sites. We used it in making the documentation website. This was mostly used by Nyomi and Bileg, although I installed it and tested it with our documentation page. I don't really recommend it for that fact that launching the website locally can be tricky (I couldn't, for some reasons which is still unknown, download some "gems" for our site).
 #### Plot.ly and D3
-Both are library used to generate dynamic visualizations in Javascript and to use them on a website (with HTML). The Plot.ly library is complete and useful making lots kind of charts and visualizations. There are some examples on how we can do the charts and some useful documentations.
+Both are libraries used to generate dynamic visualizations in Javascript and to use them on a website (with HTML). The Plot.ly library is complete and useful for making lots of kinds of charts and visualizations. There are some examples on how to the charts and some useful documentations.
 
 In the end, because we have open science, I could find answers to my questions and tools to help me and my group the tolls to go forward and learn.
 
