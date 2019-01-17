@@ -17,7 +17,7 @@ The report will mostly be about my experience throughout the project (struggling
 This project concerns every SDG issues, in other words, the purpose is to get every project related to any SDG. The idea is to find contributors and investors to make any SDG project grow and promote them as well (some small projects can get recognized and become a bigger adventure).
 
 ## Methodology
-I mostly worked with Github, Plot.ly and D3.
+I mostly worked with Github, Plot.ly and D3.js.
 #### GitHub
 GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. I knew what it was but never really worked with it, I was excited to finally be able to use it and learn more about it. I actually had many issues with it. At first the repositories were a mystery, the fork system wasn't that clear, the markdown language was new for me (and it was even the first time I heard about it). With the help of internet and Nyomi, I can now better understand the functionalities (even if I still have issues using Git with atom).
 #### Jekyll
