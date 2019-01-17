@@ -56,7 +56,7 @@ Afterwards, we made our repository in GitHub and created the issues on Nyomi's r
 ### Check and Balances
 I needed to review the whitepaper to see what has been done and if they managed to do what the whitepaper said. Looking at the state of the website, basic, we could imagine that it is easy. However, as there are so little information displayed (more when you are an admin) and even with testing all the options this task was harder than I assumed. At the beginning I believed that I needed to do a kind of review of it but I was wrong and had to redo it (with Nyomi this time).
 ### Visualization
-At the beginning, I wanted to make a big chart with multiple coloured lines which you can select to choose what information you want to see displayed. But with my lack of knowledge concerning the JavaScript language and the time I had to do it, I decided to make a linear and more simplistic one. On the website, the chart is “” which means that we can select a time laps and so screenshots such the one I did for this report.
+At the beginning, I wanted to make a big chart with multiple coloured lines which you can select to choose what information you want to see displayed. But with my lack of knowledge concerning the JavaScript language and the time I had to do it, I decided to make a linear and more simplistic one. On the website, we can select the chart at a certain time do screenshots.
 The JavaScript language was hard to understand at some points since it's very different from the languages I know, I searched in many websites, such as Stack overflow to find answers (even finding what didn't work was difficult enough).
 With the poor amount of data we had, I tried, with the help of my team, to make some visualizations to have a better view of what is happening. I wanted to do a dynamic visualization that allows you to see what is happening over time. The idea in the end is to put it available to the users, like a view of your performances. This view can allow also for the future investors, thus you can look at the productivity or the effectiveness of a contributor.  
 ## Future Plans
@@ -66,9 +66,7 @@ When the website has advanced, we could test some other ideas from the whitepape
 ## Documentation
 - https://sdg-market.oniabsis.com/
 - https://xoeseko.github.io/sdg.market/whitepaper/
-- https://github.com/sdgsolutionspace/sdg-market-frontend
-- https://github.com/sdgsolutionspace/sdg-market-frontend/issues
-- https://xoeseko.github.io/sdg.market/data%20visualisations/contributions
 - https://xoeseko.github.io/sdg.market/data%20visualisations/dynamicVisu
 - https://github.com/Xoeseko/sdg.market/issues
 - https://xoeseko.github.io/sdg.market/reports/2018/11/30/Bayar-journey
+- https://xoeseko.github.io/sdg.market/reports/2018/12/29/xoeseko-journey
