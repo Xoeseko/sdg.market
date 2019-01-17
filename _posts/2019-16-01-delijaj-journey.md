@@ -53,7 +53,7 @@ other courses/projects we had. As the website was relatively new, we had many di
 
 He said that we didn't have to do all of them, but we took is as a challenge.
 Afterwards, we made our repository in GitHub and created the issues on Nyomi's repository. We assigned some tasks and started to do it.
-### Check and Balances
+### Checks and Balances
 I needed to review the whitepaper to see what has been done and if they managed to do what the whitepaper said. Looking at the state of the website, basic, we could imagine that it is easy. However, as there are so little information displayed (more when you are an admin) and even with testing all the options this task was harder than I assumed. At the beginning I believed that I needed to do a kind of review of it but I was wrong and had to redo it (with Nyomi this time).
 ### Visualization
 At the beginning, I wanted to make a big chart with multiple coloured lines which you can select to choose what information you want to see displayed. But with my lack of knowledge concerning the JavaScript language and the time I had to do it, I decided to make a linear and more simplistic one. On the website, we can select the chart at a certain time do screenshots.
