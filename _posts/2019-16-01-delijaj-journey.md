@@ -1,5 +1,5 @@
 ---
-layout: post
+#layout: post
 title:  "Delijaj's report"
 date:   2019-01-16 16:17:00 +0100
 categories: reports
