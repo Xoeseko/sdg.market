@@ -16,7 +16,7 @@ main:
     url: "/data visualisations/contributions"
   -
     title: About
-    url: /about
+    url: /about/
 
 wp-nav:
   -
