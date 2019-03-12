@@ -2,10 +2,14 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+#layout: home
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/samuel-zeller-358003-unsplash.jpg
+  caption: Photo by Samuel Zeller on Unsplash
 ---
 
-# sdg.market
+# Open Value
 
 **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
 

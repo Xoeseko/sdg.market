@@ -1,5 +1,5 @@
 ---
-layout: single
+#layout: single
 title: Checks and Balances
 permalink: /checks_and_balances/
 sidebar:
