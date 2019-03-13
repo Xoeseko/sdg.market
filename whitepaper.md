@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: Whitepaper
 permalink: /whitepaper/
 sidebar:
