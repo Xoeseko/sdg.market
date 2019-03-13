@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: SDG market complementary website
+title: SDG Market
 email: xoeseko@gmail.com
+tagline: A Decentralized Market to Incentivize Sharing Knowledge and Expertise for achieving the UN SDGs
 description: >- # this means to ignore newlines until "baseurl:"
-  **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
   This website is developped by Sofia Delijaj and Xoeseko Nyomi as part of their Open Science project.
   The aim is to review the sdg-market to make it production ready. Apply checks and balances
   from the goals set in the whitepaper vs the actual implementation. Add data visualisations

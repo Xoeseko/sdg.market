@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Whitepaper
-permalink: /whitepaper/
-sidebar:
-  title: "Navigate"
-  nav: wp-nav  
-header:
-  image: /assets/images/head.jpeg
+featured-img: head
+#permalink: /whitepaper/
+#sidebar:
+#  title: "Navigate"
+#  nav: wp-nav  
 ---
 # sdg.market
 
