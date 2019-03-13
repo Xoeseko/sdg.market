@@ -33,7 +33,7 @@ navigation:
   - {name: 'Checks and balances', link: '/checks_and_balances/'}
   # - {name: 'Contributions', link: '/data visualisations/contributions'}
   - {name: 'About', link: '/about/'}
-  - {name: 'Test dyn viz', link: '/data visualisations/test'}
+  # - {name: 'Test dyn viz', link: '/data visualisations/test'}
 
 # Build settings
 markdown: kramdown
