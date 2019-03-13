@@ -1,5 +1,5 @@
 ---
-#layout: single
+layout: page
 classes: wide
 title: Contributions
 permalink: /data%20visualisations/contributions

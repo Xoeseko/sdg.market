@@ -1,18 +1,12 @@
 ---
 #layout: single
 title: About
+layout: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+**A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
+This website is developped by Sofia Delijaj and Xoeseko Nyomi as part of their Open Science project.
+The aim is to review the sdg-market to make it production ready. Apply checks and balances
+from the goals set in the whitepaper vs the actual implementation. Add data visualisations
+just like there could be on an actual financial platform and document the whole process.
