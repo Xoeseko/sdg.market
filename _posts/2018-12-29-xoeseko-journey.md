@@ -4,6 +4,7 @@ title:  "Xoeseko enters sdg-market"
 date:   2018-12-29 18:41:34 +0100
 categories: reports
 author: Xoeseko
+featured-img: van-ng-c-tang-143018-unsplash
 ---
 ## Open Science SDG project report by Xoeseko Nyomi
 

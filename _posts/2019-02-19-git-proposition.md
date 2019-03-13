@@ -4,6 +4,7 @@ title:  "Python based git-market"
 date:   2019-02-19 18:41:34 +0100
 categories: propositions
 author: Xoeseko
+featured-img: henri-l-547224-unsplash
 ---
 ## Proposition for running sdg market as a git extension using Python
 
