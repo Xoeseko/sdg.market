@@ -43,7 +43,7 @@ def compute_levenshtein(a, b):
             return matrix[size_x-1, size_y-1]
 ```
 
-This method although theoretically correct simply wasn't ideal for our use case since we were diffing whole repositories and the diff strings were often times simply too large. This often led to memory errors. The first step was to use the python-levenshtein API. That got rid of the memory errors but still had unreasonable execution time. The solution was therefore to paralellize the implemetation. Granted python might not be the ideal language for parallel processing the threading library proved sufficient for us leading repositories large repositories to parse almost instantly instead of taking several minutes with the blocking implementation. Here is the current algorithm where the `distance` function is imported from levenshtein-python.
+This method although theoretically correct simply wasn't ideal for our use case since we were diffing whole repositories and the diff strings were often times simply too large. This often led to memory errors. The first step was to use the python-levenshtein API. That got rid of the memory errors but still had unreasonable execution time. The solution was therefore to paralellize the implemetation. Granted python might not be the ideal language for parallel processing the threading library proved sufficient for us; leading large repositories to parse almost instantly instead of taking several minutes with the blocking implementation. Here is the current algorithm where the `distance` function is imported from levenshtein-python.
 
 ```python
 for i in range(number_diffs):
@@ -52,7 +52,6 @@ for i in range(number_diffs):
         if diff_list[i].change_type == "A" and diff_list[i].new_file and diff_list[i].b_blob:
             total_val += diff_list[i].b_blob.data_stream.size
         elif diff_list[i].change_type == "D" and diff_list[i].deleted_file and diff_list[i].a_blob:
-            diff_list[i].a_blob.binsha
             total_val += diff_list[i].a_blob.data_stream.size
         elif diff_list[i].change_type == "M" and diff_list[i].a_blob and diff_list[i].b_blob \
                 and diff_list[i].a_blob != diff_list[i].b_blob:
@@ -60,28 +59,26 @@ for i in range(number_diffs):
                 a_blobs[i] = diff_list[i].a_blob.data_stream.read().decode()
             except UnicodeDecodeError:
                 print("Error while parsing a_blob : ", diff_list[i].a_blob.data_stream.read())
-                b_blobs += diff_list[i].a_blob.data_stream.read()
 
             try:
-                b_blobs += diff_list[i].b_blob.data_stream.read().decode()
+                b_blobs[i] = diff_list[i].b_blob.data_stream.read().decode()
             except UnicodeDecodeError:
                 print("Error while parsing a_blob : ", diff_list[i].b_blob.data_stream.read())
-                b_blobs += diff_list[i].b_blob.data_stream.read()
 ```
 
 The previous part was more or less already there since this is just the part that will serve the diffs to our computation method.
 
-I had to define a one function that could be called by each individual thread.
+I had to define a one-line function that could be called by each individual thread.
 ```python
-def add_distance_two_threads(a_blob, b_blob, current_sum):
+def add_distance_two_strings(a_blob, b_blob, current_sum):
     current_sum += distance(a_blob, b_blob)
 ```
 The next code cell is where all the concurrent magic happens
 ```python
 # Results are computed on a per diff basis creating one thread for each computation
 threads = []
-for i in range(len(a_blobs)):
-    t = Thread(target=add_distance_two_threads, args=(a_blobs[i],
+for i in range(number_diffs):
+    t = Thread(target=add_distance_two_strings, args=(a_blobs[i],
                                                       b_blobs[i], total_val))
     t.start()
     threads.append(t)
