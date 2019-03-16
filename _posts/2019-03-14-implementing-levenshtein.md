@@ -15,7 +15,7 @@ A simple character count was implemented on the php api. Which proved a good opp
 
 My initial conclusion was that the levenshtein function had no hope given it's huge complexity. I also figured that's why it wasn't implemented on the web app which we outsourced. This prompted me to further reflect on how we could make it a prime goal of ours that people can easily implement their token generation functions through a flexible and lightweight API we could give them. The reflection regarding that is still not complete but in the meantime I found a solution to our levenshtein problem.
 
-```Python
+```python
 def compute_levenshtein(a, b):
             size_x = len(a)
             size_y = len(b)
@@ -43,12 +43,12 @@ def compute_levenshtein(a, b):
             return matrix[size_x-1, size_y-1]
 ```
 
-This method although theoretically correct simply wasn't ideal for our use case since we were diffing whole repositories and the diff strings were often times simply too large. This often led to memory out of bounds errors. The first step was to use the python-levenshtein API. That got rid of the memory errors but still had unreasonable execution time. The solution was therefore to paralellize the implemetation. Granted python might not be the ideal language for parallel processing the threading library proved sufficient for us leading repositories large repositories to parse almost instantly instead of taking several minutes with the blocking implementation. Here is the current algorithm where the `distance` function is imported from levenshtein-python.
+This method although theoretically correct simply wasn't ideal for our use case since we were diffing whole repositories and the diff strings were often times simply too large. This often led to memory errors. The first step was to use the python-levenshtein API. That got rid of the memory errors but still had unreasonable execution time. The solution was therefore to paralellize the implemetation. Granted python might not be the ideal language for parallel processing the threading library proved sufficient for us leading repositories large repositories to parse almost instantly instead of taking several minutes with the blocking implementation. Here is the current algorithm where the `distance` function is imported from levenshtein-python.
 
-```Python
+```python
 for i in range(number_diffs):
         # If the change is an added or deleted file the distance is simply the
-        #number of characters in the file
+        # number of characters in the file
         if diff_list[i].change_type == "A" and diff_list[i].new_file and diff_list[i].b_blob:
             total_val += diff_list[i].b_blob.data_stream.size
         elif diff_list[i].change_type == "D" and diff_list[i].deleted_file and diff_list[i].a_blob:
@@ -72,13 +72,13 @@ for i in range(number_diffs):
 The previous part was more or less already there since this is just the part that will serve the diffs to our computation method.
 
 I had to define a one function that could be called by each individual thread.
-```Python
+```python
 def add_distance_two_threads(a_blob, b_blob, current_sum):
     current_sum += distance(a_blob, b_blob)
 ```
 The next code cell is where all the concurrent magic happens
-```Python
-# Results are computed on a per diff per thread basis
+```python
+# Results are computed on a per diff basis creating one thread for each computation
 threads = []
 for i in range(len(a_blobs)):
     t = Thread(target=add_distance_two_threads, args=(a_blobs[i],
@@ -87,7 +87,7 @@ for i in range(len(a_blobs)):
     threads.append(t)
 
 # Once the diffs have been computed a blocking call is made such that we get
-#all the diffs summed up before returning to the normal execution of the program.
+# all the diffs summed up before returning to the normal execution of the program.
 for t in threads:
     t.join()
 
