@@ -33,22 +33,26 @@ To complete the _first_ requirement, let's look on how people feel for each colo
 **Blue** represents trust, security and peace; used in businesses and banks to create a sense of security and trust.
 
 Also in the commercial effect, some color will affect your activity.
-<div style="width:50% margin-left:auto margin-right:auto">
-  <img src="/assets/images/consumer-pychology-color.png"/>
+<div style="max-width:1200px margin-left:auto margin-right:auto">
+  <img src="https://github.com/Xoeseko/sdg.market/raw/gh-pages/assets/images/consumer-pychology-color.png" />
 </div>
 By looking at all the possibilities, I feel like teal or blue must be our main color.
 As accent colors, we should go with some yellow and/or pink.
 <div style="max-width:1200px margin-left:auto margin-right:auto">
-  <img src="/assets/images/colorSet1.jpg" style="width:30%"/>
-  <img src="/assets/images/colorSet2.png" style="width:30%"/>
-  <img src="/assets/images/colorSet3.jpg" style="width:30%"/>
+  <img src="https://github.com/Xoeseko/sdg.market/raw/gh-pages/assets/images/colorSets.png" />
 </div>
+
 For the background we should stick with white to let the focus on the projects or going with shadings of our dominant color (as many buisness websites do).
 ### Navigation
 Navigation is one of the most important part of a website, indeed when we look through a website we want to see what we can do and how easy it is the find it. The sidebar is the key of an easy way to search for those options. The sidebar must be well seen by the users but not by using a flashy color (such as fluo pink). We can tell that the sidebar is the main menu bar (I say main since there are other type of menu such as "mega menus" or "sticky navigation").
 We will need to add a fat footer. Generally this space is reserved for privacy, legal links and displaying the security icons and methods of payment. This way the user will feel more at ease and a better reliance on our platform. Finally, it will look very good since it will close the site's layout and give a clean aspect.
 ### Card Design
 "With the rise of Pinterest, designers and marketers alike have become fascinated with cards. Individual cards help distribute information in a visual way so the visitors can easily consume bite-sized pieces of content without being overwhelmed."(1) This in my opinion could be a good addition, indeed if we look at the repository list we can see just a simple table with some information about it. What if we put the logo of the project and align them, then the user will just click on the image and it will get him/her to the project's description and/or repository. Because in the end if we think about the potential projects we can suppose that there will be more information and graphs to illustrate the project's advancements.
+Here's an exemple of a card design:
+<div style="max-width:1200px margin-left:auto margin-right:auto">
+  <img src="https://github.com/Xoeseko/sdg.market/raw/gh-pages/assets/images/card design.png"/>
+</div>
+
 ### Alignment
 When we talk about alignment we talk about the overall website structure. In fact we should follow the eye tracking. But what's that all about? Well according to some scientific research, depending on the color scheme, the text and image position, people tend to stay on a structured website with a certain view pattern. For our website the adequate pattern must be the figure D of (2).
 ### Mobile Friendly
