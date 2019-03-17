@@ -4,6 +4,7 @@ title:  "Delijaj's report"
 date:   2019-01-16 16:17:00 +0100
 categories: reports
 author: Delijaj
+featured-img: glenn-carstens-peters-203007-unsplash
 ---
 
 # Report of Delijaj Sofia
