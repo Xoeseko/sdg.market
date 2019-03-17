@@ -43,6 +43,7 @@ As accent colors, we should go with some yellow and/or pink.
   <img src="/assets/images/colorSet2.png" style="width:30%"/>
   <img src="/assets/images/colorSet3.jpg" style="width:30%"/>
 </div>
+
 For the background we should stick with white to let the focus on the projects or going with shadings of our dominant color (as many buisness websites do).
 ### Navigation
 Navigation is one of the most important part of a website, indeed when we look through a website we want to see what we can do and how easy it is the find it. The sidebar is the key of an easy way to search for those options. The sidebar must be well seen by the users but not by using a flashy color (such as fluo pink). We can tell that the sidebar is the main menu bar (I say main since there are other type of menu such as "mega menus" or "sticky navigation").
