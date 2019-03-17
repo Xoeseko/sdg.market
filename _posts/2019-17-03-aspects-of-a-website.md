@@ -39,7 +39,7 @@ Also in the commercial effect, some color will affect your activity.
 By looking at all the possibilities, I feel like teal or blue must be our main color.
 As accent colors, we should go with some yellow and/or pink.
 <div style="max-width:1200px margin-left:auto margin-right:auto">
-  <img src="/assets/images/colorSets.png" style="width:30%"/>
+  <img src="/assets/images/colorSets.png" />
 </div>
 
 For the background we should stick with white to let the focus on the projects or going with shadings of our dominant color (as many buisness websites do).
@@ -50,7 +50,7 @@ We will need to add a fat footer. Generally this space is reserved for privacy, 
 "With the rise of Pinterest, designers and marketers alike have become fascinated with cards. Individual cards help distribute information in a visual way so the visitors can easily consume bite-sized pieces of content without being overwhelmed."(1) This in my opinion could be a good addition, indeed if we look at the repository list we can see just a simple table with some information about it. What if we put the logo of the project and align them, then the user will just click on the image and it will get him/her to the project's description and/or repository. Because in the end if we think about the potential projects we can suppose that there will be more information and graphs to illustrate the project's advancements.
 Here's an exemple of a card design:
 <div style="max-width:1200px margin-left:auto margin-right:auto">
-  <img src="/assets/images/card design.png" style="width:30%"/>
+  <img src="/assets/images/card design.png"/>
 </div>
 
 ### Alignment
