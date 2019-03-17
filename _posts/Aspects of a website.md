@@ -16,6 +16,7 @@ Colors are a big aspect of designing a website, I don't want to end up with a pl
 3. Choosing a background color to complete the design
 
 To complete the _first_ recquirement, let's look on how people feel for each color:
+
 **Green** represents wealth, health, tranquility and nature; it's the easiest color for the eye to process, so it has relaxation effects.
 
 **Yellow** represents youthfulness, optimism and cheerfulness; often used to grab the attention of the audience, it's a strong color so it must be used in little doze.
