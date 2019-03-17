@@ -1,7 +1,7 @@
 ---
 #layout: post
 title:  "Aspects of website design"
-date:   2019-03-16 15:22:34 +0100
+date:   2019-03-17 13:50:34 +0100
 categories: reports
 author: Delijaj Sofia
 ---
