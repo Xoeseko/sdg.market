@@ -1,25 +1,24 @@
 ---
-layout: single
+layout: page
 title: Whitepaper
-permalink: /whitepaper/
-sidebar:
-  title: "Navigate"
-  nav: wp-nav  
-header:
-  image: /assets/images/head.jpeg
+featured-img: head
+#permalink: /whitepaper/
+#sidebar:
+#  title: "Navigate"
+#  nav: wp-nav  
 ---
 # sdg.market
 
 **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
 
 ## Introduction
-We recognize the prime importance of transparency, attribution and accountability of knowledge production. We consider that the progress of humanity at scale requires strong incentives to produce, share and operationalize knowledge through actions, systems, products. These artifacts can then have a positive impact in order to overcome some of the most pressing challenges of our times (e.g., climate change, gender equality, reduction of poverty). The challenge of collective knowledge production entails most often latent social and economic components. For instance, contributors to Open Source Software (OSS) or Wikipedia resort to a mix of instrinsic and extrinsic motivations that determine their engagement []. Involvement in peer-production generally requires understanding a set of more or less implicit norms, which cement the community yet often at the cost of some entry barriers. Most open source projects have suffered from these barriers [ref].
+We recognize the prime importance of transparency, attribution and accountability of knowledge production. We consider that the progress of humanity at scale requires strong incentives to produce, share and operationalize knowledge through actions, systems, products. These artifacts can then have a positive impact in order to overcome some of the most pressing challenges of our times (e.g., climate change, gender equality, reduction of poverty). The challenge of collective knowledge production entails most often latent social and economic components. For instance, contributors to Open Source Software (OSS) or Wikipedia resort to a mix of intrinsic and extrinsic motivations that determine their engagement []. Involvement in peer-production generally requires understanding a set of more or less implicit norms, which cement the community yet often at the cost of some entry barriers. Most open source projects have suffered from these barriers [ref].
 
 Here, we propose that at least some of the motivations and norms are fungible in a decentralized mechanism design (a market blueprint), which in turn would create new scaling opportunities, in particular by reaching broader communities of contributors, who are not necessarily tuned to the subtleties of open source explicit and implicit rules, yet may wish to contribute to and "be part" of projects that have the potential to help overcome challenges they particularly care of.
 
 In this whitepaper, we propose a (decentralized) mechanism design to fulfill the requirements of open source yet with a fair attribution of the value of contributions to projects by individuals over the course of a project. This fair attribution shall become fungible with real (or virtual) currency when investors start pledging/pledging money in the contributed  project.
 
-![png](../assets/images/decentralized.jpeg)
+![png](assets/images/decentralized.jpeg)
 
 ## Background
 * markets as a driver for trust : people make contracts
@@ -28,7 +27,7 @@ In this whitepaper, we propose a (decentralized) mechanism design to fulfill the
 * the devil lies in details : full transparency of the market design in this white paper
 
 ### the UN SDGs
-The 17 United Nations (UN) Sustainable Development Goals (SDGs) have set an agenda to make the world more sustainable by 2030. The SDGs follow the Millenium Goals, which were set for the period 2000 until 2015.
+The 17 United Nations (UN) Sustainable Development Goals (SDGs) have set an agenda to make the world more sustainable by 2030. The SDGs follow the Millennium Goals, which were set for the period 2000 until 2015.
 
 Here, we believe that sharing and exchanging valuable open knowledge as well as expertise associated with concrete projects aimed at the SDGs, is a way to go that empowers all people willing to contribute.
 
@@ -41,7 +40,7 @@ We aim to establish a common scalable platform to share knowledge for SDGs.
 This draft White Paper has come out discussions with Dev4X held at the iSDG Assembly 2017 in Shenzhen, which gathered high-school students from Beijing with their teachers, university students attending Summer School programs at Tsinghua University, University of Geneva, EPFL, Centre pour la Recherche Interdisciplinaire (CRI) and Harvard University.
 
 ## Context/Requirements :
-![png](../assets/images/why.jpeg)
+![png](assets/images/why.jpeg)
 ### Motivations
 The 2015-30 agenda for the implementation of the UN SDGs is a tight one. It will require unleashing as much creativity, innovation and performance to find, develop and spread most sustainable technologies. We believe that it will require the involvement of large crowds committed together. To encourage cumulative innovation, knowledge shall spread quickly to most concerned people around the world, and entice them to contribute further.
 
@@ -65,7 +64,7 @@ The 2015-30 agenda for the implementation of the UN SDGs is a tight one. It will
 * establish a new IP regime that reflect stakes on the SDG Market (i.e., a new kind of open source license)
 
 ## Project Dynamics :
-![png](../assets/images/roadmap.jpeg)
+![png](assets/images/roadmap.jpeg)
 An (open source) project starts with an idea, which is either devised collectively or by a single leading person who then convinces others to follow, and help contribute. As it grows the project gets more contributors, who in turn help fix an increasing number of issues, and provide additional flesh to the project. Hopefully, the project continues this way following a virtuous circle. Even though it may not generalize, most projects that aim to scale may deeply benefit from contributors with different culture and expertise backgrounds. Additionally, the nature of involvement is likely to change over the course of the project: late contributors generally don't have the same challenges, motivations and constraints, compared to early contributors. Respecting the life course of a project and the renewal of contributors is paramount to ensure that resources provided by contributors are efficiently allocated over the course of the project.
 
 ### The need for a robust sense of ownership for all contributors from the idea to the first financial pledge and beyond:
@@ -78,22 +77,22 @@ Additionally, a project gets robust through a thorough peer-review process, whic
 
 Many projects can sustain for a long while without financial resources, and as such remain "unfungible" during this time. This is usually an issue, because projects/startups without investment don't have proper continuous valuation. In turn, the lack of valuation prevents attributing value to the fine-grained actions performed by contributors.
 
-Our core proposition is that contributions to projects (as well as other actions) generate tokens. We will detail in section XX which actions generate rewards through the generation of token. In turn, these tokens can be traded on their "foster" value until proper financing kicks-in (see next section).
+Our core proposition is that contributions to projects (as well as other actions) generate tokens. We will detail in section [Rewards for Contributions, Tasks and Actions](#rewards-for-contributions-tasks-and-actions-) which actions generate rewards through the generation of tokens. In turn, these tokens can be traded on their "foster" value until proper financing kicks-in (see next section).
 
 This *exchange* offers the possibility of diversification between projects. Yet, it is arguably complicated for people to decide how to trade tokens one to one. At the same time, there is no currency involved.
 
 ### A Smart Contract to define the project and challenge game rules
-![png](../assets/images/trading_rules.jpeg)
+![png](assets/images/trading_rules.jpeg)
 Every project is unique however in its aims, proceedings and reward mechanisms. We envision that the reward and trading rules of each project shall be coded in a smart contract, issued at the beginning of the project. The smart contract may in particular specify under which license produced contents shall be distributed. Similarly, a challenge (i.e., a group of projects with similar aims and values) shall define which project is acceptable for the challenge. In particular, a challenge may target a specific SDG or sub-SDG.
 
 The project (resp. challenge) smart contract shall in particular determine which kind of investment, it may receive, whether for profit or philanthropic.
 
 
 ### the SDG Market and Initial Coin Offering :$
-![png](../assets/images/market.jpeg)  
+![png](assets/images/market.jpeg)  
 The SDG Market is where tokens of all projects are traded. One can place an offer to buy tokens of a new project in exchange of a fraction (resp. multiple) of token from an existing project.
 
-There is not initial coin offering. As soon as project tokens are generated by contributions and actions, they can be traded on the SDG.market, under condition that the project respects the charter of the SDG Market (i.e. see associated smart contract).
+There is no initial coin offering. As soon as project tokens are generated by contributions and actions, they can be traded on the SDG.market, under condition that the project respects the charter of the SDG Market (i.e. see associated smart contract).
 
 Through transactions performed by participants, the SDG Market essentially plays the role of revealing the "true" value (or at least the perceived value) of projects. It also offers opportunities to invest early in a project without actually contributing or performing actions.
 
@@ -114,7 +113,7 @@ or
 
 2. The second option is more like a Tobin tax, which neither requires consensus nor token creation. The Tobin tax function is set in the project smart contract. For each transaction involving cash, the buyer must pay an additional fee to the project (or equivalently, a share of her down payment of a given amount of tokens goes to the project). This tax can be factors more than the value of the shares, and may actually evolve with the value of tokens. Several mechanisms may be possible :
 a. it can be a flat rate per share, e.g., 1 CHF per token sold. For low value tokens, the price to pay is high, which is punitive, yet could bring cash to a project in difficulty. So for instance, if a token holder sells 10 tokens for 1 Swiss Francs, the per token tax may be 10 CHF (100%). On the contrary, if the token holder sells 1 token for 10 Swiss Francs, the tax is 1 CHF (10%).
-b. it could be a flatrate tax on the transaction : 10 CHF whatever transaction. It's even more punitive because it forces large volumes, unlike option (a), which is punitive on the number of token exchanged.
+b. it could be a flatrate tax on the transaction : 10 CHF whatever transaction. It's even more punitive because it forces large volumes, unlike option (a), which is punitive on the number of tokens exchanged.
 c. it could be a percentage (e.g. 1%), but this may over incentivize early cash inflow
 
 3. The third option is an hybrid of 1 and 2a. : For each transaction, some tokens are distributed as a counterpart of the tax (it's technically no longer a tax). For each transaction there is flat rate to pay per share to pay to the project, e.g.. 1 CHF per token. As a counterpart, a fraction/multiple of token is distributed as the inverse function of the current token value. For instance, if the token value is 1 CHF then the buyer receives 1 new token. If the value is 10 CHF, then the buyer receives 0.1 token. If the value is 100 CHF, then the buyer receives 0.01 token. And so on. This mechanism is particularly nice because it helps someone buy out quickly an abandoned project, also bringing in cash resources, and thus, reviving interest in the project.
@@ -122,7 +121,7 @@ c. it could be a percentage (e.g. 1%), but this may over incentivize early cash 
 ### Creating a SDG Commitment:
 
 #### SDG Token Signature:
-![png](../assets/images/flavors.jpeg)
+![png](assets/images/flavors.jpeg)
 The SDG Market is about pushing impact investment to make the world a better place. In the description so far, it was assumed that projects respect the SDGs, but no commitment is enforced. Signing tokens with a basket of SDGs would be the "SDG Signature" of a project.
 
 In terms of SDG commitment, a project may define itself as SDG_{1-17}={0.,0.3,0.5,0,0,0.1,...,0.2}, with a vector reflecting the SDG aims.
@@ -187,7 +186,7 @@ If the invited lurker has not previously contributed to the project she gets a 5
 * Practical Issues :
 	- an invitee new to the system should create an account (equiv. a wallet)
 => one way is to create immediately a wallet per email address. The account can be confirmed later (different emails can be confirmed and consolidated in one account)
-	- an anti-spam mechanism might be needed, based on peer-review, or by providing a button in the email sent for the invitee to report spam. To deter spam, each invitation may a cost a very small fee (0.05). Similarly, a request to contribute shall cost a very small fee (0.05), reimbursed when the contribution is accepted.
+	- an anti-spam mechanism might be needed, based on peer-review, or by providing a button in the email sent for the invitee to report spam. To deter spam, each invitation may cost a very small fee (0.05). Similarly, a request to contribute shall cost a very small fee (0.05), reimbursed when the contribution is accepted.
 
 
 ### Sophisticated Rule :
@@ -217,7 +216,7 @@ One the main problem with collective production is how the value of IP is shared
 => plagiarism detection
 
 ### License :
-![png](../assets/images/license.jpeg)
+![png](assets/images/license.jpeg)
 
 We shall invent a new license that enforces :
 - open source
@@ -258,7 +257,7 @@ Not clear how we can have a merge happen besides reusing parts of one project to
 (I would not advocate for a negotiation based bargain/deal)
 
 #### Invitations & Recommendation / Pull Requests / Merge :
-![png](../assets/images/recommandation.jpeg)
+![png](assets/images/recommandation.jpeg)
 One way to share resources and effort is to recommend/invite contributors to help for a project.
 
 If an invitee to a project makes a contribution, the recommender gets half of the shares. If the invitation is carried on further, each recommender get half of the shares of her invitee. For example an invitation is carried on 3 steps and the final invitee has contributed and has received 10 shares. The person who has invited her gets 5 shares, the recommender who invited the person who has found the contributor gets 2.5 shares, and so on recursively. This mechanism offers strong incentives to reach out for targeted help, and to further build the community (It was used for the DARPA Grand Balloon Challenge).

@@ -13,23 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: SDG market complementary website
+title: SDG Market
 email: xoeseko@gmail.com
+tagline: A Decentralized Market to Incentivize Sharing Knowledge and Expertise for achieving the UN SDGs
 description: >- # this means to ignore newlines until "baseurl:"
-  **A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
   This website is developped by Sofia Delijaj and Xoeseko Nyomi as part of their Open Science project.
   The aim is to review the sdg-market to make it production ready. Apply checks and balances
   from the goals set in the whitepaper vs the actual implementation. Add data visualisations
   just like there could be on an actual financial platform and document the whole process.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Xoeseko and Sofia-Pika
-github: [metadata]
+# github_username:  Xoeseko and Sofia-Pika
+# github: [metadata]
+hero_img: posts/samuel-zeller-358003-unsplash_lg.jpg
+navigation:
+  - {name: 'Home', link: '/'}
+  - {name: 'Whitepaper', link: '/whitepaper'}
+  # - {name: 'Token chart', link: '/data visualisations/dynamicVisu'}
+  - {name: 'Checks and balances', link: '/checks_and_balances/'}
+  # - {name: 'Contributions', link: '/data visualisations/contributions'}
+  - {name: 'About', link: '/about/'}
+  # - {name: 'Test dyn viz', link: '/data visualisations/test'}
 
 # Build settings
 markdown: kramdown
 ##theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "janczizikow/sleek"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -42,7 +51,7 @@ defaults:
       path: ""
       type: posts
      values:
-      layout: single
+      # layout: single
       author_profile: true
       read_time: true
       comments: true
@@ -50,7 +59,7 @@ defaults:
       related: true
 
 repository: Xoeseko/sdg.market
-minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+# minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -65,3 +74,36 @@ minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "di
 #   - vendor/ruby/
 
 #theme: jekyll-theme-minimal
+people:
+- name: Xoeseko Nyomi
+  pic: id_xoeseko
+  position: Lead Developer
+  social:
+    - title: gitHub
+      url: https://github.com/Xoeseko/
+    - title: facebook
+      url: https://www.facebook.com/xnyomi
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/9117755/xoeseko-yao-nyomi
+
+- name: Thomas Mayar
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Sofia Delijaj
+  pic: 3
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
