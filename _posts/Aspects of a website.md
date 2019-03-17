@@ -14,14 +14,22 @@ Colors are a big aspect of designing a website, I don't want to end up with a pl
 1. Choosing a dominant color as the brand color
 2. Choosing 1 to 2 accent colors to create a color scheme for the website
 3. Choosing a background color to complete the design
-To complete the _first_ recquirement, let's look on how people feel for each color.
+
+To complete the _first_ recquirement, let's look on how people feel for each color:
 **Green** represents wealth, health, tranquility and nature; it's the easiest color for the eye to process, so it has relaxation effects.
+
 **Yellow** represents youthfulness, optimism and cheerfulness; often used to grab the attention of the audience, it's a strong color so it must be used in little doze.
+
 **Orange** represents friendliness, enthusiasm and creativity; it's the color or impulse shoppers.
+
 **Red** represents passion, energy, urgency and danger; it's effective to trigger strong emotional reaction also it stimulate appetite.
+
 **Pink** represents feminin, sweetness, innocence and romance; used to attract women.
+
 **Purple** represents royalty, wealth, success and wisdom; it has a soothing and calming effect.
+
 **Blue** represents trust, security and peace; used in businesses and banks to creaze a sense of security and trust.
+
 Also in the commercial effect, some color will affect your activity such shown in this image **[image à mettre]**. By looking at all the possibilities, i feel like teal or blue must be our main color.
 As accent colors, we should go with some yellow and/or pink.**[2 images de couleurs]**
 For the background we should stick with white to let the focus on the projects or going with shadings of our dominant color (as many buisness websites do).
@@ -40,6 +48,9 @@ Even if this part will be short i think it's worth montionning that: all website
 My research A
 ### Documentation
 (1)https://blog.hubspot.com/marketing/elements-of-modern-web-design-list
+
 https://www.lyfemarketing.com/blog/effective-website-design/
+
 https://pennerwebdesign.com/blog/the-most-important-aspects-of-website-design/
+
 https://www.techrepublic.com/blog/web-designer/effective-design-principles-for-web-designers-alignment/
