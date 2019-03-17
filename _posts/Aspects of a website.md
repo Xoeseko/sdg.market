@@ -42,11 +42,9 @@ We will need to add a fat footer. Generally this space is reserved for privacy, 
 "With the rise of Pinterest, designers and marketers alike have become fascinated with cards. Individual cards help distribute information in a visual way so the visitors can easily consume bite-sized pieces of content without being overwhelmed."(1) This in my opinion could be a good addition, indeed if we look at the repository list we can see just a simple table with some informations about it. What if we put the logo of the project and align them, then the user will just click on the image and it will get him/her to the project's description and/or repository. Because in the end if we think about the potential projects we can suppose that there will be more informations and graphs to illustrate the project's advancements.
 **[inserer une image exemple de ce qu'est un card design]**
 ### Alignment
-When we talk about alignment we talk about the overall website structure.
+When we talk about alignment we talk about the overall website structure. In fact we should follow the eye tracking. But what's that all about? Well according to some scientific reaserch, depending on the color scheme, the text and image position, people tend to stay on a structured website with a certain view pattern. For our website the adequate pattern must be the figure D of (2).
 ### Mobile Friendly
 Even if this part will be short i think it's worth montionning that: all websites today should be built for mobile viewing as well as the traditional desktop view. If i am the leader of the project, i would want to check the activity of my repository anywhere on my phone. Or if i am a financial, i would want to see at any time how the money if give is used.
-### Conclusion
-My research A
 ### Documentation
 (1)https://blog.hubspot.com/marketing/elements-of-modern-web-design-list
 
@@ -54,4 +52,4 @@ https://www.lyfemarketing.com/blog/effective-website-design/
 
 https://pennerwebdesign.com/blog/the-most-important-aspects-of-website-design/
 
-https://www.techrepublic.com/blog/web-designer/effective-design-principles-for-web-designers-alignment/
+(2)https://www.techrepublic.com/blog/web-designer/effective-design-principles-for-web-designers-alignment/
