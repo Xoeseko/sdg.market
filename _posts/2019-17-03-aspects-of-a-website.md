@@ -33,7 +33,9 @@ To complete the _first_ requirement, let's look on how people feel for each colo
 **Blue** represents trust, security and peace; used in businesses and banks to create a sense of security and trust.
 
 Also in the commercial effect, some color will affect your activity.
-![color Psycology](https://www.websitebuilderexpert.com/wp-content/uploads/2016/03/consumer-pychology-color-kissmetrics.png)
+<div style="max-width:1200px margin-left:auto margin-right:auto">
+  <img src="https://www.websitebuilderexpert.com/wp-content/uploads/2016/03/consumer-pychology-color-kissmetrics.png" />
+</div>
 By looking at all the possibilities, I feel like teal or blue must be our main color.
 As accent colors, we should go with some yellow and/or pink.
 <div style="max-width:1200px margin-left:auto margin-right:auto">
