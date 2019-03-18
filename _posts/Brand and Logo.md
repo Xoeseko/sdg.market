@@ -3,7 +3,7 @@
 title:  "Brand and Logo"
 date:   2019-03-20 13:50:34 +0100
 categories: proposal
-featured-img:
+featured-img: alice-achterhof-85968-unsplash.jpg
 author: Delijaj Sofia
 ---
 
