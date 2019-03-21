@@ -64,6 +64,8 @@ There are 4 types of font that we can use:
 
 **Display** is a typeface that is intended for use at large sizes for headings, rather than for extended passages of body text, this type gives a more funky look. i. Art Deco, Art Nouveau, Decorative and Graffiti.
 
+#### African symbols
+Not very used, those symbols have a meaning (see (6)). The advantages are: they don't have any copyright, they are simple and they are not used that much so it could be a good way to be original.
 #### Aviding generic logos
 To better aprehend the logo creation we can look at existing logos and we can see that there are many logo nearly identic. We would want to avoid having an unoriginal design. The article of (3) really describes well all the used icons and what methode we can use to find a original idea.
 ### My ideas
