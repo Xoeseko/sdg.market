@@ -77,3 +77,9 @@ https://www.canva.com/create/logos/?utm_expid=.dKVwQnVmSaKfjE7BH2tsVw.0&utm_refe
 (2) https://en.99designs.ch/blog/logo-branding/how-to-design-logo/
 
 (3) https://en.99designs.ch/blog/tips/generic-logos/
+
+(4) http://www.spiritanimal.info/animal-meanings/
+
+(5) https://www.spirit-animals.com/
+
+(6) http://www.adinkra.org/htmls/adinkra/anan.htm
