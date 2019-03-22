@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: SDG Market
+title: Developers Market
 email: xoeseko@gmail.com
 tagline: A Decentralized Market to Incentivize Sharing Knowledge and Expertise for achieving the UN SDGs
 description: >- # this means to ignore newlines until "baseurl:"

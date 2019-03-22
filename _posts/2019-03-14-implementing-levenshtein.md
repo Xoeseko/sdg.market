@@ -1,19 +1,19 @@
 ---
 layout: post
 title:  "Token generation"
-date:   2019-03-17 20:00:00 +0100
+date:   2019-03-14 20:00:00 +0100
 categories: reports
 author: Xoeseko
 featured-img: m-b-m-795202-unsplash
 mathjax: true
 ---
-## Implementing a levenshtein based token generation
+## Implementing a Levenshtein based token generation
 
 ### Introduction
-While working on sdg market one of the first steps was reviewing the token generation mechanisms.
-A simple character count was implemented on the php api. Which proved a good opportunity for me to demonstrate the power of a python based simple command line tool. I started implementing it by writing the levenshtein function from scratch. This quickly proved inefficient since the levenshtein function has a time complexity of $O(n^2)$. The logical next step was to use an existing implementation. There seemed to be a pretty well optimized C implementation which led to the api executing better although the execution time was still unreasonably long.
+While working on the SDG market one of the first steps was reviewing the token generation mechanisms.
+A simple character count was implemented on the PHP api. Which proved a good opportunity for me to demonstrate the power of a python based simple command line tool. I started implementing it by writing the Levenshtein function from scratch. This quickly proved inefficient since the Levenshtein function has a time complexity of $O(n^2)$. The logical next step was to use an existing implementation. There seemed to be a pretty well optimized C implementation which led to the API executing better although the execution time was still unreasonably long.
 
-My initial conclusion was that the levenshtein function had no hope given it's huge complexity. I also figured that's why it wasn't implemented on the web app which we outsourced. This prompted me to further reflect on how we could make it a prime goal of ours that people can easily implement their token generation functions through a flexible and lightweight API we could give them. The reflection regarding that is still not complete but in the meantime I found a solution to our levenshtein problem.
+My initial conclusion was that the Levenshtein function had no hope given its huge complexity. I also figured that's why it wasn't implemented on the web app which we outsourced. This prompted me to further reflect on how we could make it a prime goal of ours that people can easily implement their token generation functions through a flexible and lightweight API we could give them. The reflection regarding that is still not complete but in the meantime, I found a solution to our Levenshtein problem.
 
 ```python
 def compute_levenshtein(a, b):
@@ -43,7 +43,7 @@ def compute_levenshtein(a, b):
             return matrix[size_x-1, size_y-1]
 ```
 
-This method although theoretically correct simply wasn't ideal for our use case since we were diffing whole repositories and the diff strings were often times simply too large. This often led to memory errors. The first step was to use the python-levenshtein API. That got rid of the memory errors but still had unreasonable execution time. The solution was therefore to paralellize the implemetation. Granted python might not be the ideal language for parallel processing the threading library proved sufficient for us; leading large repositories to parse almost instantly instead of taking several minutes with the blocking implementation. Here is the current algorithm where the `distance` function is imported from levenshtein-python.
+This method although theoretically correct simply wasn't ideal for our use case since we were diffing whole repositories and the diff strings were often times simply too large. This often led to memory errors. The first step was to use the python-Levenshtein API. That got rid of the memory errors but still had unreasonable execution time. The solution was therefore to parallelize the implementation. Granted python might not be the ideal language for parallel processing the threading library proved sufficient for us; leading large repositories to parse almost instantly instead of taking several minutes with the blocking implementation. Here is the current algorithm where the `distance` function is imported from Levenshtein-python.
 
 ```python
 for i in range(number_diffs):
@@ -92,12 +92,12 @@ return total_val
 ```
 
 ### Conclusion
-I wanted to focus on implementation flexibility but it turns out that the levenshtein function works albeit given a little work on concurrency to make it usable. This gives insight into the fact that giving flexibility to implement functions might sound nice in theory but it could prove more complicated than expected if the value computation is a minimum involved like the levenshtein function was a tiny example of. Which leads me to the conclusion that in order to make the tool really interesting it will be necessary to define a clear interface using functional concepts for the arguments passed and return value expected. There still is some work to be done as listed afterwards but the tool is shaping well for our next objectives. A noteable next step will be integrating the python function with the existing web frontend so that the tool is ready to be presented as quickly as possible.
+I wanted to focus on implementation flexibility but it turns out that the Levenshtein function works albeit given a little work on concurrency to make it usable. This gives insight into the fact that giving the flexibility to implement functions might sound nice in theory but it could prove more complicated than expected if the value computation is a minimum involved like the Levenshtein function was a tiny example of. Which leads me to the conclusion that in order to make the tool really interesting it will be necessary to define a clear interface using functional concepts for the arguments passed and return value expected. There still is some work to be done as listed afterward but the tool is shaping well for our next objectives. A notable next step will be integrating the python function with the existing web frontend so that the tool is ready to be presented as quickly as possible.
 
 ### Following steps
  - Write additional tests (particularly reverted commits might not work well because blobs might not exist anymore...)
  - Clean up and document code
- - Deploy git-market on pypi and make the github repository public
- - Implement database schema based on php implementation schema for compatibility
- - Add portfolio option to database schema and implement using python
+ - Deploy git-market on PYPI and make the GitHub repository public
+ - Implement database schema based on PHP implementation schema for compatibility
+ - Add portfolio option to the database schema and implement using python
  - Start automatizing transactions as proof of concept for WSIS and university
