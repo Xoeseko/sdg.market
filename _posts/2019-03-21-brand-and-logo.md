@@ -64,11 +64,41 @@ There are 4 types of font that we can use:
 
 **Display** is a typeface that is intended for use at large sizes for headings, rather than for extended passages of body text, this type gives a more funky look. i. Art Deco, Art Nouveau, Decorative and Graffiti.
 
+#### Animals
+Some brands have an animal as their logo. So, like colors, animals have a signification and send a different feeling to the user. Let’s mention some of the most common:
+
+A **cat** symbol means freedom, spiritual power, tenderness, hedonism, mystery, (and either good or bad luck in Japan)
+
+A **Bear** symbol means strength, courage and tenacity and is the animal that represents the sellers in the market, so it is used along with the bull in several trading and stocks related projects
+
+A **Bull** means strength, courage, tenacity and is the animal that represents the buyers in the market, so it is used a lot in stocks and trading related projects
+
+A **Fox** symbol means intelligence and slyness.
+
+An **Elephant** symbol means power, dignity, intelligence and peace.
+
+A **Dolphin** symbol means salvation, transformation and love.
+
+A **Horse** Symbol means velocity, vitality and beauty.
+
+An **Ant** means hard effort, while a group of ants can portray effective teamwork.
+
+**Dogs** portray loyalty and unconditional love.
+
+Other animals can be found on website (4) and (5).
+
 #### African symbols
 Not very used, those symbols have a meaning (see (6)). The advantages are: they don't have any copyright, they are simple and they are not used that much so it could be a good way to be original.
 #### Aviding generic logos
 To better aprehend the logo creation we can look at existing logos and we can see that there are many logo nearly identic. We would want to avoid having an unoriginal design. The article of (3) really describes well all the used icons and what methode we can use to find a original idea.
 ### My ideas
+#### Branding
+In my opinion, to include most of our community, we need something different from SDG. In fact, if we talk about SDGs some people will find it too vague or not connected with their objective. Indeed we will first target programmmers and developpers. The next part "market" should stay (or we could find a synonyme for it if it feels odd) since the point is to valuate projects, being able to trade the generated tokens between users and having a financial help (with philontrops or other kind of inverstors). So **developers.market** seems to be a more appropriate name than SDG market. If we look trough URLs prices we can conclude that it's not so expensive($80.44)(7).
+#### Logo
+In this part i will propose some logo ideas and concepts. These ideas could work for both my proposition and the current name, SDG market.
+I want to creat a circle icon seeing that the names are long so we will put them around the logo. In the center i see many possibilities; Nyomi showed me the african symbols and "ANANSE NTONTAN" took our attention, indeed this symbole represents _""spider's web", symbol of wisdom, creativity and the complexities of life"_ (7) which is really fitting looking at the purpose of our website. The ant is also very fitting (see animals). I would prefer the ant because people can recognize it easier than the spider's web but both must be considered.
+The color scheme will be one that i proposed in the _design of a website_, the one with dark blue, teal, light pink and orange. I feel like that we should use only two fo them, teal and orange or dark blue and orange. I put orange since having a darktoned color and a more flashy one gives a better look and an easier way to memorize the logo.
+[add some logo idea]
 ### Documentation
 https://www.canva.com/create/logos/?utm_expid=.dKVwQnVmSaKfjE7BH2tsVw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F
 
@@ -83,3 +113,5 @@ https://www.canva.com/create/logos/?utm_expid=.dKVwQnVmSaKfjE7BH2tsVw.0&utm_refe
 (5) https://www.spirit-animals.com/
 
 (6) http://www.adinkra.org/htmls/adinkra/anan.htm
+
+(7) https://www.name.com/domain/search/developers.market#notify
