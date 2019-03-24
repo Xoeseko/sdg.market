@@ -3,7 +3,7 @@
 title:  "Brand and Logo"
 date:   2019-03-18 20:50:34 +0100
 categories: proposal
-featured-img: alice-achterhof-85968-unsplash.jpg
+featured-img: alice-achterhof-85968-unsplash
 author: Delijaj Sofia
 ---
 
@@ -60,7 +60,7 @@ There are 4 types of fonts that we can use:
 
 **Sans serif** is the opposite of serif (so no little line), this font is often used in modern and sleeker looks i.e Helvetica, Avant Garde, Arial, and Geneva.
 
-**Script** is a font looking like handwriting and gives a very unique look i.e Blackletter, Calligraphic, Casual and Celtic. 
+**Script** is a font looking like handwriting and gives a very unique look i.e Blackletter, Calligraphic, Casual and Celtic.
 
 **Display** is a typeface that is intended for use at large sizes for headings, rather than for extended passages of body text, this type gives a more funky look. i. Art Deco, Art Nouveau, Decorative and Graffiti.
 
