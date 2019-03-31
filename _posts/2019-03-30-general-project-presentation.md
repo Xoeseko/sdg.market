@@ -20,6 +20,7 @@ We have already built the first version of our platform which computes the token
 ### Next steps
 
 We are currently working on various aspects including :
+ - Allowing developers to implement their own contribution counting algorithms maybe based on downloads or another measure of impact rather than work
  - A more appealing interface
  - Plotting the evolution of projects as valuation graphs
  - Giving access to portfolios for users to easily view everything they own or might be interested in.
