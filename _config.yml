@@ -58,7 +58,7 @@ defaults:
       share: true
       related: true
 
-repository: Xoeseko/sdg.market
+repository: developers-market/developers-market
 # minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Exclude from processing.

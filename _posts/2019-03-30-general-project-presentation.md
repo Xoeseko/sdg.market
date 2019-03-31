@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "From bazaar to market: conceiving a sustainable business model"
+title:  "Presenting sdg market"
 date:   2019-03-24 20:00:00 +0100
 categories: propositions
 author: Xoeseko
