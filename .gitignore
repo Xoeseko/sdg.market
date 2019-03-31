@@ -3,7 +3,6 @@ _site
 .jekyll-metadata
 Gemfile
 Gemfile.lock
-_config.yml
 *.ipynb
 vendor/
 gulpfile.babel.js
