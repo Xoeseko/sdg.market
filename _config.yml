@@ -75,28 +75,6 @@ repository: Xoeseko/sdg.market
 
 #theme: jekyll-theme-minimal
 people:
-- name: Xoeseko Nyomi
-  pic: id_xoeseko
-  position: Lead Developer
-  social:
-    - title: gitHub
-      url: https://github.com/Xoeseko/
-    - title: facebook
-      url: https://www.facebook.com/xnyomi
-    - title: stack-overflow
-      url: https://stackoverflow.com/users/9117755/xoeseko-yao-nyomi
-
-- name: Thomas Mayar
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
 - name: Sofia Delijaj
   pic: Delijaj
   position: Lead Designer
@@ -107,3 +85,26 @@ people:
       url: #
     - title: google-plus
       url: #
+
+- name: Thomas Mayar
+  pic: thomas
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Xoeseko Nyomi
+  pic: id_xoeseko
+  position: Lead Developer
+  social:
+    - title: gitHub
+      url: https://github.com/Xoeseko/
+    - title: facebook
+      url: https://www.facebook.com/xnyomi
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/9117755/xoeseko-yao-nyomi
+future: false
