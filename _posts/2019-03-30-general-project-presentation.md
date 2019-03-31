@@ -37,5 +37,3 @@ We are currently working on various aspects including :
  - Presentation at Unige Entrepreneurship week November 2019
 
 Likely all of these public presentations will also help us get a feel for the market and have a stronger position when asking for funding based on the community we will have built along the way.
-
-Sources:
