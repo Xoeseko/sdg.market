@@ -15,7 +15,7 @@ We are building a developer's market particularly geared towards sustainable dev
 Our idea is to provide a platform where any project, favorizing those that address SDGs, can be shared and receive contributions from the community at large. One great advantage is that a solution that has worked in a certain context can also be re-used by the community. We are also tackling the sustainability issue from a new angle that hasn't been used very much in open source development.  The market idea comes from the fact that we give tokens to anyone who contributes to a project. These tokens can then be purchased providing financing to the developer community that helped but also to the project itself. The purchase of tokens thus also acts as a valuation mechanism.
 
 ### Current status
-We have already built the first version of our platform which computes the tokens based on the number of characters added or removed by a certain actor. We have also implemented an optional more complex algorithm that computes the Levenshtein difference between two contributions to get a more precise picture. On the current platform accessible at sdevs.ml it is possible to add projects and track the evolution of their value based on the implemented algorithms.
+We have already built the first version of our platform which computes the tokens based on the number of characters added or removed by a certain actor. We have also implemented an optional more complex algorithm that computes the Levenshtein difference between two contributions to get a more precise picture. On the current platform accessible at [developers.market](http://developers.market/) it is possible to add projects and track the evolution of their value based on the implemented algorithms.
 
 ### Next steps
 
