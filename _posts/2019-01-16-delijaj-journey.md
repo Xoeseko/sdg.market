@@ -65,9 +65,9 @@ As expected, we couldn't do all issues, only the blockchain implementation remai
 When the website has advanced, we could test some other ideas from the whitepaper and mostly how they will use and generate the tokens (mentionned in Bayar's report).
 
 ## Documentation
-- https://sdg-market.oniabsis.com/
-- https://xoeseko.github.io/sdg.market/whitepaper/
-- https://xoeseko.github.io/sdg.market/data%20visualisations/dynamicVisu
-- https://github.com/Xoeseko/sdg.market/issues
-- https://xoeseko.github.io/sdg.market/reports/2018/11/30/Bayar-journey
-- https://xoeseko.github.io/sdg.market/reports/2018/12/29/xoeseko-journey
+- [http://developers.market/](http://developers.market/)
+- [http://blog.developers.market/whitepaper](http://blog.developers.market/whitepaper)
+- [http://blog.developers.market/data%20visualisations/dynamicVisu](http://blog.developers.market/data%20visualisations/dynamicVisu)
+- [https://github.com/developers-market/developers-market.github.io/issues](https://github.com/developers-market/developers-market.github.io/issues)
+- [http://blog.developers.market/reports/2018/11/30/Bayar-journey](http://blog.developers.market/reports/2018/11/30/Bayar-journey)
+- [http://blog.developers.market/reports/2018/12/29/xoeseko-journey](http://blog.developers.market/reports/2018/12/29/xoeseko-journey)

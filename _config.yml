@@ -28,6 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 hero_img: posts/samuel-zeller-358003-unsplash_lg.jpg
 navigation:
   - {name: 'Home', link: '/'}
+  - {name: 'App', link: 'http://developers.market/'}
   - {name: 'Whitepaper', link: '/whitepaper'}
   # - {name: 'Token chart', link: '/data visualisations/dynamicVisu'}
   - {name: 'Checks and balances', link: '/checks_and_balances/'}

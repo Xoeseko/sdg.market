@@ -71,11 +71,11 @@ Finally, a few development questions I would have are :
 - As we near the end of the project one important concern comes to mind. As we try to artificially incentivize involvement in such projects through some form of market. It is going to be important to make sure we don't corrupt the spirit of projects that enjoyed voluntary participation until now. The question is thus how to build such an incentive tool in respect of the open culture that existed before it ?
 
 ### 7. Documentation
-- https://sdg-market.oniabsis.com/
-- https://xoeseko.github.io/sdg.market/whitepaper/
-- https://github.com/sdgsolutionspace/sdg-market-frontend
-- https://github.com/sdgsolutionspace/sdg-market-frontend/issues
-- https://xoeseko.github.io/sdg.market/data%20visualisations/contributions
-- https://xoeseko.github.io/sdg.market/data%20visualisations/dynamicVisu
-- https://github.com/Xoeseko/sdg.market/issues
-- https://xoeseko.github.io/sdg.market/reports/2018/11/30/Bayar-journey
+- [http://developers.market/](http://developers.market/)
+- [http://blog.developers.market/whitepaper](http://blog.developers.market/whitepaper)
+- [https://github.com/sdgsolutionspace/sdg-market-frontend](https://github.com/sdgsolutionspace/sdg-market-frontend)
+- [https://github.com/sdgsolutionspace/sdg-market-frontend/issues](https://github.com/sdgsolutionspace/sdg-market-frontend/issues)
+- [http://blog.developers.market/data%20visualisations/contributions](http://blog.developers.market/data%20visualisations/contributions)
+- [http://blog.developers.market/data%20visualisations/dynamicVisu](http://blog.developers.market/data%20visualisations/dynamicVisu)
+[https://github.com/developers-market/developers-market.github.io/issues](https://github.com/developers-market/developers-market.github.io/issues)
+- [http://blog.developers.market/reports/2018/11/30/Bayar-journey](http://blog.developers.market/reports/2018/11/30/Bayar-journey)

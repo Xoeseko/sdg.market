@@ -100,18 +100,18 @@ I want to create a circle icon seeing that the names are long so we will put the
 The color scheme will be one that I proposed in the _design of a website_, the one with dark blue, teal, light pink and orange. I feel like that we should use only two fo them, teal and orange or dark blue and orange. I put orange since having a dark-toned color and a more flashy one gives a better look and an easier way to memorize the logo.
 [add some logo idea]
 ### Documentation
-https://www.canva.com/create/logos/?utm_expid=.dKVwQnVmSaKfjE7BH2tsVw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F
+[https://www.canva.com/create/logos/?utm_expid=.dKVwQnVmSaKfjE7BH2tsVw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F](https://www.canva.com/create/logos/?utm_expid=.dKVwQnVmSaKfjE7BH2tsVw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F)
 
-(1) https://www.columnfivemedia.com/how-to-choose-a-brand-name
+(1) [https://www.columnfivemedia.com/how-to-choose-a-brand-name](https://www.columnfivemedia.com/how-to-choose-a-brand-name)
 
-(2) https://en.99designs.ch/blog/logo-branding/how-to-design-logo/
+(2) [https://en.99designs.ch/blog/logo-branding/how-to-design-logo/](https://en.99designs.ch/blog/logo-branding/how-to-design-logo/)
 
-(3) https://en.99designs.ch/blog/tips/generic-logos/
+(3) [https://en.99designs.ch/blog/tips/generic-logos/](https://en.99designs.ch/blog/tips/generic-logos/)
 
-(4) http://www.spiritanimal.info/animal-meanings/
+(4) [http://www.spiritanimal.info/animal-meanings/](http://www.spiritanimal.info/animal-meanings/)
 
-(5) https://www.spirit-animals.com/
+(5) [https://www.spirit-animals.com/](https://www.spirit-animals.com/)
 
-(6) http://www.adinkra.org/htmls/adinkra/anan.htm
+(6) [http://www.adinkra.org/htmls/adinkra/anan.htm](http://www.adinkra.org/htmls/adinkra/anan.htm)
 
-(7) https://www.name.com/domain/search/developers.market#notify
+(7) [https://www.name.com/domain/search/developers.market#notify](https://www.name.com/domain/search/developers.market#notify)

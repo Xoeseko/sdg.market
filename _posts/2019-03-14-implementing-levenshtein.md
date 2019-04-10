@@ -107,3 +107,6 @@ I wanted to focus on implementation flexibility but it turns out that the Levens
  - Implement database schema based on PHP implementation schema for compatibility
  - Add portfolio option to the database schema and implement using python
  - Start automatizing transactions as proof of concept for WSIS and university
+
+ Sources:
+ [https://stackabuse.com/levenshtein-distance-and-text-similarity-in-python/](https://stackabuse.com/levenshtein-distance-and-text-similarity-in-python/)
