@@ -71,7 +71,13 @@ The previous part was more or less already there since this is just the part tha
 I had to define a one-line function that could be called by each individual thread.
 ```python
 def add_distance_two_strings(a_blob, b_blob, current_sum):
-    current_sum += distance(a_blob, b_blob)
+  lock = Lock()
+  d = distance(a_blob, b_blob)
+
+  lock.acquire()
+  current_sum += d
+  lock.release()
+
 ```
 The next code cell is where all the concurrent magic happens
 ```python
