@@ -36,4 +36,4 @@ All in all, there are many ways we could go about turning this project into a su
 
 Sources:
 
-https://opensource.com/article/17/12/open-source-business-models
+[https://opensource.com/article/17/12/open-source-business-models](https://opensource.com/article/17/12/open-source-business-models)

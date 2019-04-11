@@ -59,9 +59,9 @@ When we talk about alignment we talk about the overall website structure. In fac
 Even if this part will be short I think it's worth mentioning that: all websites today should be built for mobile viewing as well as the traditional desktop view. If I were the leader of the project, I would want to check the activity of my repository anywhere on my phone. Or if I were a financier, I would want to see at any time how the money I give is used.
 
 ### Documentation
-(1)https://blog.hubspot.com/marketing/elements-of-modern-web-design-list
+(1)[https://blog.hubspot.com/marketing/elements-of-modern-web-design-list](https://blog.hubspot.com/marketing/elements-of-modern-web-design-list)
 
-https://www.lyfemarketing.com/blog/effective-website-design/
+[https://www.lyfemarketing.com/blog/effective-website-design/](https://www.lyfemarketing.com/blog/effective-website-design/)
 
 https://pennerwebdesign.com/blog/the-most-important-aspects-of-website-design/
 

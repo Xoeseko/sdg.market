@@ -71,7 +71,13 @@ The previous part was more or less already there since this is just the part tha
 I had to define a one-line function that could be called by each individual thread.
 ```python
 def add_distance_two_strings(a_blob, b_blob, current_sum):
-    current_sum += distance(a_blob, b_blob)
+  lock = Lock()
+  d = distance(a_blob, b_blob)
+
+  lock.acquire()
+  current_sum += d
+  lock.release()
+
 ```
 The next code cell is where all the concurrent magic happens
 ```python
@@ -101,3 +107,6 @@ I wanted to focus on implementation flexibility but it turns out that the Levens
  - Implement database schema based on PHP implementation schema for compatibility
  - Add portfolio option to the database schema and implement using python
  - Start automatizing transactions as proof of concept for WSIS and university
+
+ Sources:
+ [https://stackabuse.com/levenshtein-distance-and-text-similarity-in-python/](https://stackabuse.com/levenshtein-distance-and-text-similarity-in-python/)
