@@ -5,8 +5,11 @@ layout: about
 permalink: /about/
 ---
 
-**A Decentralized Market to Incentivize Sharing Knowledge and Expertise for the UN SDGs**
-This website is developped by Sofia Delijaj and Xoeseko Nyomi as part of their Open Science project.
-The aim is to review the sdg-market to make it production ready. Apply checks and balances
-from the goals set in the whitepaper vs the actual implementation. Add data visualisations
-just like there could be on an actual financial platform and document the whole process.
+### What is your project worth ?
+
+Find out the value of a project you are passionate about. Using our implemented algorithms or your own smart contract define a value for contributions and see what the market is ready to pay for it.
+Invest in community first. We define a mechanism such that money invested can go directly to developers in fact you don't even need us as middleman.
+Contribute to developing a sustainable future for us all. A big proportion of the revenue generated through our project is used mainly to invest in upcoming open source projects with a particular aim towards those that advance the sustainable development goals.
+  - Check you ideas against the market and eventually earn money for that
+  - Buy tokens directly from projects you find promising
+  - Sustain a community of developers while indirectly having a greater impact
