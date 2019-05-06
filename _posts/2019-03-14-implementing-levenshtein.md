@@ -100,6 +100,11 @@ return total_val
 ### Conclusion
 I wanted to focus on implementation flexibility but it turns out that the Levenshtein function works albeit given a little work on concurrency to make it usable. This gives insight into the fact that giving the flexibility to implement functions might sound nice in theory but it could prove more complicated than expected if the value computation is a minimum involved like the Levenshtein function was a tiny example of. Which leads me to the conclusion that in order to make the tool really interesting it will be necessary to define a clear interface using functional concepts for the arguments passed and return value expected. There still is some work to be done as listed afterward but the tool is shaping well for our next objectives. A notable next step will be integrating the python function with the existing web frontend so that the tool is ready to be presented as quickly as possible.
 
+### UPDATE [60.05.19]
+Like specified in the whitepaper the contribution value should depend on the token price. In the currently implemented algorithm the generated tokens are a ratio of the Levenshtein difference and the total number of tokens of each project. This is not ideal as it just means that the number of tokens received for each contribution will decrease as the value of a project increases. We have a generation function that converges towards zero. While in reality we want a function that is decreases slowly when the price increases such that projects that a project that knows a price inflation has a harder time generating tokens for a commit since more people will naturally want to invest time there and contributing to a project that is not worth much easily generates a lot of tokens. Much like the simple ratio descibed in the whitepaper.
+<div>
+  <img src="../assets/img/token_generation.png" />
+</div>
 ### Following steps
  - Write additional tests (particularly reverted commits might not work well because blobs might not exist anymore...)
  - Clean up and document code
